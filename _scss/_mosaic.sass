@@ -1,0 +1,121 @@
+.mosaic
+  width: 100%
+  color: #212121
+  font-family: $open-sans
+
+  &.border
+    border-top: 1px solid #EEE
+    border-bottom: 1px solid #EEE
+    padding-top: 75px
+    padding-bottom: 75px
+    margin-bottom: 70px
+
+  .inner
+    max-width: (1165px + 26px + 26px)
+    width: 100%
+    margin: 0 auto
+    padding-left: 26px
+    margin-bottom: -26px
+
+  .item
+    width: 371px
+    height: 371px
+    display: block
+    margin-bottom: 26px
+    background-size: cover
+    background-position: center
+    position: relative
+
+    &.tall
+      height: 517px
+
+    .item-inner
+      background: rgba(255,255,255,0.85)
+      position: absolute
+      top: 10px
+      right: 10px
+      bottom: 10px
+      left: 10px
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center
+      align-content: center
+      transition: all .2s ease
+      opacity: 0
+
+      h3,
+      p
+        margin: 0
+        font-size: 20px
+
+      p
+        margin-top: 6px
+
+    &:hover
+
+      .item-inner
+        opacity: 1
+
+  &.projects
+
+    .item
+
+      .item-inner
+        opacity: 1
+
+      &:hover
+
+        .item-inner
+          opacity: 0
+
+@media only screen and (max-width: 1265px)
+
+  .mosaic
+
+    .inner
+      max-width: (371px + 371px + 26px + 26px + 26px)
+
+@media only screen and (max-width: 868px)
+
+  .mosaic
+
+    .inner
+      max-width: 371px
+      padding-left: 0
+
+@media only screen and (max-width: 422px)
+
+  .mosaic
+
+    .item
+      width: 290px
+      height: 290px
+      margin-left: auto
+      margin-right: auto
+
+      &.tall
+        height: 404px
+
+@media only screen and (max-width: 414px)
+
+  .mosaic
+
+    .inner
+      width: calc(100% - 30px)
+      max-width: initial
+
+    .item
+      width: 100%
+      height: initial
+
+      &:before
+        content: ""
+        display: block
+        padding-top: 100%
+
+      &.tall
+        height: initial
+
+        &:before
+          padding-top: 140%

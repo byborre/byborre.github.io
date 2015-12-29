@@ -1,0 +1,104 @@
+.social-media-box
+  position: absolute
+  z-index: $z-index-navigation
+  font-family: $open-sans
+  color: white
+  background: #4A4A4A
+  max-width: 956px
+  width: 100%
+  +centerElementHorizontal
+  padding: 30px 22px 30px 65px
+  bottom: 50px
+
+  ul
+    margin: 0
+    float: left
+    padding: 0
+    list-style: none
+    left: 0
+    font-family: $socialico
+    font-size: 26px
+    line-height: 32px
+
+    li
+      float: left
+
+      &.instagram
+        font-family: $socialico-plus
+
+    li + li
+      margin-left: 40px
+
+  > p
+    margin: 0 23px 0 0
+    float: right
+    font-weight: bold
+    font-size: 12px
+    text-transform: uppercase
+    line-height: 32px
+
+  #mc_embed_signup
+    float: right
+
+    input
+      float: left
+      height: 32px
+      font-family: $open-sans
+      border: none
+      font-size: 10px
+      -webkit-appearance: none
+      border-radius: 0
+
+      &[type=email]
+        width: 290px
+        color: #000
+        font-size: 12px
+        padding-left: 10px
+        padding-right: 10px
+
+        &::-webkit-input-placeholder
+          color: #4A4A4A
+
+        &:-moz-placeholder
+          color: #4A4A4A
+
+        &::-moz-placeholder
+          color: #4A4A4A
+
+        &:-ms-input-placeholder
+          color: #4A4A4A
+
+      &[type=submit]
+        width: 145px
+        background: #9B9B9B
+        color: #FFF
+
+@media only screen and (max-width: 1023px)
+
+  .social-media-box
+    bottom: 0
+    max-width: initial
+
+@media only screen and (max-width: 960px)
+
+  .social-media-box
+
+    > p
+      display: none
+
+@media only screen and (max-width: 768px)
+
+  .social-media-box
+    display: flex
+    flex-direction: column
+    align-items: center
+    padding-left: 30px
+
+    #mc_embed_signup
+      margin-top: 20px
+
+      input[type=email]
+        width: calc(100% - 75px)
+
+      input[type=submit]
+        width: 75px

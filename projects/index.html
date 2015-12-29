@@ -1,0 +1,113 @@
+---
+layout: default
+title: Projects
+---
+
+<section class="text">
+
+  <div class="inner">
+
+    <h2>About ByBorre</h2>
+
+    <p class="intro">Little story about byborre lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur massa in maximus eleifend. Mauris  tristique bibendum odio.</p>
+
+    <p>Aenean in neque orci. Aenean id nisl urna. Donec commodo erat quis ante pharetra, nec luctus arcu porta. Mauris imperdiet, lorem et dignissim pretium, sem diam mollis urna, eu maximus massa dolor id nisl. Vestibulum aliquet ullamcorper dolor vel dictum. Integer ac interdum lacus.</p>
+
+  </div>
+  <!-- end .inner -->
+
+</section>
+<!-- end section.text -->
+
+<section class="mosaic projects border">
+
+  <div class="inner">
+
+    {% for project in site.projects %}
+    <a class="item" href="{{ project.url }}" style="background-image: url(/img/content/mosaic/item.jpg);">
+      <span class="item-inner">
+        <h3>{{ project.title }}</h3>
+        <p>Field</p>
+      </span>
+    </a>
+    {% endfor %}
+
+<!--
+    <a class="item tall" href="project.html" style="background-image: url(img/content/mosaic/item-tall.jpg);">
+      <span class="item-inner">
+        <h3>Project title</h3>
+        <p>Field</p>
+      </span>
+    </a>
+ -->
+
+  </div>
+  <!-- end .inner -->
+
+</section>
+<!-- end section.mosaic -->
+
+<section class="text">
+
+  <div class="inner">
+
+    <h2 class="center">Commissioned work</h2>
+
+    <p>Besides our own products and projects we also work for brands. Ranging from lectures on textile innovation to special edition products and colaborations.</p>
+
+  </div>
+  <!-- end .inner -->
+
+</section>
+<!-- end section.text -->
+
+<section class="grid work">
+
+  <div class="inner">
+
+  {% for brand in site.data.brands %}
+    <div class="item">
+      <a href="#" class="{{ brand.class }}">{{ brand.title }}}</a>
+    </div>
+  {% endfor %}
+
+
+  </div>
+  <!-- end .inner -->
+
+</section>
+<!-- end .section.grid.work -->
+
+<section class="text">
+
+  <div class="inner">
+
+    <h2 class="center">Featured</h2>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, aperiam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, quia.</p>
+
+  </div>
+  <!-- end .inner -->
+
+</section>
+<!-- end section.text -->
+
+<section class="grid featured">
+
+  <div class="inner">
+
+  {% for feature in site.data.featured %}
+    <div class="item">
+      <a href="{{ feature.url }}" class="{{ feature.class }}">{{ feature.title }}</a>
+      <p>
+        <strong>{{ feature.web }}</strong><br/>
+        {{ feature.date }}
+      </p>
+    </div>
+  {% endfor %}
+
+  </div>
+  <!-- end .inner -->
+
+</section>
+<!-- end .section.grid.features -->

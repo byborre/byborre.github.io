@@ -1,0 +1,90 @@
+section.text
+  color: #212121
+
+  .inner
+    max-width: 734px
+    width: calc(100% - 100px)
+    margin: 0 auto
+    padding-bottom: 126px
+
+  h2
+    margin: 0
+    font-family: $open-sans
+    font-size: 24px
+
+    &.center
+      text-align: center
+
+  p
+    margin: 20px 0 0
+    font-family: $bitter
+    font-size: 18px
+    line-height: 24px
+
+    &.intro
+      font-size: 25px
+      line-height: 30px
+
+  .columns
+
+  .column
+    float: left
+    width: calc(100% / 3)
+
+  a.button
+    +button
+    margin-top: 75px
+
+  .chart
+    margin-top: 25px
+    border-top: 1px solid #979797
+    color: #212121
+
+    .item
+      border-bottom: 1px solid #979797
+      +clearfix
+
+    .name
+      float: left
+      width: 110px
+      font-family: $open-sans
+      font-size: 17px
+      font-weight: 600
+      line-height: 26px
+      padding: 19px 0 19px 10px
+
+    .value
+      float: left
+      width: calc(100% - 110px)
+      font-family: $bitter
+      font-size: 17px
+      line-height: 21px
+      padding: 22px 0
+
+  .chart + .button
+    margin-top: 50px
+
+@media only screen and (max-width: 768px)
+
+  section.text
+
+    .inner
+      width: calc(100% - 50px)
+
+@media only screen and (max-width: 767px)
+
+  section.text
+
+    .column
+      float: initial
+      width: 100%
+
+    .column + .column
+      margin-top: 2em
+
+@media only screen and (max-width: 414px)
+
+  section.text
+
+    .inner
+      width: calc(100% - 30px)

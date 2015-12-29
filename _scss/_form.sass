@@ -1,0 +1,148 @@
+section.form
+  font-family: $open-sans
+  font-size: 19px
+  color: #212121
+  line-height: 26px
+  padding-top: 80px
+  padding-bottom: 40px
+  background-color: #F6F6F6
+
+  .inner
+    max-width: 600px
+    width: calc(100% - 100px)
+    margin: 0 auto
+
+  form
+    +clearfix
+
+  .row
+    float: left
+    clear: both
+    width: 100%
+    margin-bottom: 20px
+
+    label
+      float: left
+      width: 132px
+      text-align: right
+      padding-right: 22px
+      line-height: 40px
+      font-size: 17px
+      font-weight: 600
+
+    input
+      border: 1px solid #9B9B9B
+      height: 40px
+      -webkit-appearance: none
+      border-radius: 0
+
+      &[type=text]
+        float: left
+        width: calc(100% - 132px)
+        padding: 0 10px
+        outline: none
+
+      &[type=submit]
+        +button
+        line-height: 1em
+        margin: 10px auto
+        @media only screen and (max-width: 414px)
+          line-height: 1em
+
+    p
+      text-align: center
+
+      a
+        text-decoration: underline
+
+        &:hover
+          text-decoration: none
+
+  .select-wrapper
+
+    // Resets
+    padding: 0
+    margin: 0
+    font-size: 19px
+
+    // Positioning
+    display: inline-block
+    position: relative
+
+    // Visual styling
+    overflow: hidden
+    width: calc(100% - 132px - 80px)
+
+    select
+
+      // Resets
+      border: none
+      box-shadow: none
+      background-color: transparent
+      background-image: none
+      -webkit-appearance: none
+      -moz-appearance: none
+      appearance: none
+
+      // Positioning
+      position: absolute
+      top: 0
+      bottom: 0
+      left: 0
+      width: 100%
+      z-index: 1
+
+      &:focus
+        outline: none
+
+    span
+      pointer-events: none
+      position: relative
+      z-index: 2
+      display: block
+      border: 1px solid #9B9B9B
+      font-family: $open-sans
+      font-weight: normal
+      background: #fff
+      height: 40px
+      color: #000
+      padding: 0 10px
+      line-height: 40px
+
+    &:after
+      content: ""
+      width: 0
+      height: 0
+      border-style: solid
+      border-width: 9px 5px 0 5px
+      border-color: #000000 transparent transparent transparent
+      position: absolute
+      z-index: 3
+      pointer-events: none
+      right: 10px
+      top: 15px
+
+@media only screen and (max-width: 768px)
+
+  section.form
+
+    .inner
+      width: calc(100% - 50px)
+
+@media only screen and (max-width: 414px)
+
+  section.form
+
+    .inner
+      width: calc(100% - 30px)
+
+    .row
+
+      label
+        text-align: left
+
+      input[type=text],
+      .select-wrapper
+        float: left
+        clear: both
+        width: 100%

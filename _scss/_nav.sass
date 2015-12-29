@@ -1,0 +1,129 @@
+nav
+  height: 175px
+  width: 100%
+  padding-top: 93px
+  font-family: $open-sans
+  font-weight: 600
+  font-size: 12px
+  text-transform: uppercase
+  z-index: $z-index-navigation
+  position: relative
+  transition: background .4s ease, transform .4s ease, padding .6s ease, height .6s ease
+
+  &.sticky
+    position: fixed
+    top: 0
+
+    &.headroom--not-top
+      background: rgba(255,255,255,0.9)
+      padding: 50px 0
+      height: 126px
+
+      &.headroom--unpinned
+        transform: translateY(-100%)
+
+    & + *
+      margin-top: 175px
+
+    & + section.product
+      margin-top: 0
+
+    & + section.story:nth-child(2)
+      margin-top: 0
+
+  .inner
+    max-width: 1166px
+    width: calc(100% - 100px)
+    margin: 0 auto
+    position: relative
+
+  h1
+    +background-image-retina('../img/nav/logo', 'png', 175px, 26px)
+    margin: 0 auto
+    width: 175px
+    height: 26px
+    text-indent: -9999px
+    display: block
+
+    a
+      display: block
+
+  ul,
+  a.close
+    position: absolute
+    right: 0
+    top: 0
+
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+    line-height: 26px
+
+    li
+      float: left
+
+    li + li
+      margin-left: 34px
+
+    a
+      padding-bottom: 6px
+
+      &:hover,
+      &.active
+        border-bottom: 1px solid #979797
+
+  a.close
+    +background-image-retina('../img/nav/close', 'png', 18px, 18px)
+    width: 26px
+    height: 26px
+    background-repeat: no-repeat
+    background-position: center
+    display: block
+    text-indent: -9999px
+
+@media only screen and (max-width: 768px)
+
+  nav
+    padding-top: 50px
+
+    &.sticky
+
+      &.headroom--not-top
+        padding-top: 30px
+
+    .inner
+      width: calc(100% - 50px)
+
+    ul
+      margin-top: 25px
+      position: static
+      text-align: center
+
+      li
+        width: calc(100% / 3)
+
+      li + li
+        margin-left: 0
+
+@media only screen and (max-width: 422px)
+
+  nav
+
+    .inner
+      width: calc(100% - 50px)
+
+    li
+
+      &:first-child
+        text-align: left
+
+      &:last-child
+        text-align: right
+
+@media only screen and (max-width: 414px)
+
+  nav
+
+    .inner
+      width: calc(100% - 30px)
