@@ -6,30 +6,31 @@ title: byBorre
 
   <div class="inner">
 
-    <div class="item left" style="background-image: url(/img/content/highlights/1.jpg)">
-
+  {% for product in site.products %}
+    {% if product.homepage == true %}
+    <div class="item left" style="background-image: url({{ product.cover }})">
       <div class="text">
-        <h2><a href="products-detail.html">Bubble scarf 01</a></h2>
-        <p>200pcs. €135,-</p>
+          <h2><a href="{{ product.url }}">{{ product.title }}</a></h2>
+          <p>{{ product.count }}pcs. €{{ product.price_euro }},-</p>
       </div>
-      <!-- end .text -->
-
     </div>
-    <!-- end .item.left -->
+    {% endif %}
+  {% endfor %}
 
-    <div class="item right" style="background-image: url(/img/content/highlights/2.jpg)">
-
-      <div class="text">
-        <h2><a href="project.html">Summer Fold Out Chair</a></h2>
-        <p>Maarten Baas / Louis Vuiton</p>
-      </div>
-      <!-- end .text -->
-
+  {% for project in site.projects %}
+    {% if project.homepage == true %}
+    <div class="item right" style="background-image: url({{ project.cover }})">
+        <div class="text">
+          <h2><a href="{{ project.url }}">{{ project.title }}</a></h2>
+          <p>{{ project.people }}</p>
+        </div>
     </div>
-    <!-- end .item.right -->
+    {% endif %}
+  {% endfor %}
 
   </div>
   <!-- end .inner -->
+
 
 </div>
 <!-- end .highlights -->

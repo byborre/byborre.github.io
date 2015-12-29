@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Projects
 ---
 
@@ -7,11 +7,11 @@ title: Projects
 
   <div class="inner">
 
-    <h2>About ByBorre</h2>
+    <h2 class="center">Where technology meets textile.</h2>
 
-    <p class="intro">Little story about byborre lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur massa in maximus eleifend. Mauris  tristique bibendum odio.</p>
+    <p class="intro">Creating concepts by proxy of fashion. Enhancing textiles by adding functionality. Taking the world by surprise. Designed by all means necessary. Made with love by far.</p>
 
-    <p>Aenean in neque orci. Aenean id nisl urna. Donec commodo erat quis ante pharetra, nec luctus arcu porta. Mauris imperdiet, lorem et dignissim pretium, sem diam mollis urna, eu maximus massa dolor id nisl. Vestibulum aliquet ullamcorper dolor vel dictum. Integer ac interdum lacus.</p>
+    <p>BB.LAB is a design studio focused on developing fabrics of the future. Textile will become the next platform to interact with the digital world. Building on technologies in virtual reality and mobile computing. We are removing another layer between humans and computers. Creating a new interface, that is invisible, tactile and intuitive. The innovation is in the yarns and knitting patterns as well as the embedded sensors.</p>
 
   </div>
   <!-- end .inner -->
@@ -19,9 +19,35 @@ title: Projects
 </section>
 <!-- end section.text -->
 
+<section class="grid work">
+
+  <div class="inner">
+  {% for brand in site.data.brands %}
+    <div class="item">
+      <a href="#" class="{{ brand.class }}">{{ brand.title }}}</a>
+    </div>
+  {% endfor %}
+  </div>
+  <!-- end .inner -->
+
+</section>
+<!-- end .section.grid.work -->
+
+<section class="text">
+
+  <div class="inner">
+    <h2 class="center">Some of our projects.</h2>
+  </div>
+  <!-- end .inner -->
+
+</section>
+<!-- end section.text -->
+
+
 <section class="mosaic projects border">
 
   <div class="inner">
+
 
     {% for project in site.projects %}
     <a class="item" href="{{ project.url }}" style="background-image: url(/img/content/mosaic/item.jpg);">
@@ -47,67 +73,3 @@ title: Projects
 </section>
 <!-- end section.mosaic -->
 
-<section class="text">
-
-  <div class="inner">
-
-    <h2 class="center">Commissioned work</h2>
-
-    <p>Besides our own products and projects we also work for brands. Ranging from lectures on textile innovation to special edition products and colaborations.</p>
-
-  </div>
-  <!-- end .inner -->
-
-</section>
-<!-- end section.text -->
-
-<section class="grid work">
-
-  <div class="inner">
-
-  {% for brand in site.data.brands %}
-    <div class="item">
-      <a href="#" class="{{ brand.class }}">{{ brand.title }}}</a>
-    </div>
-  {% endfor %}
-
-
-  </div>
-  <!-- end .inner -->
-
-</section>
-<!-- end .section.grid.work -->
-
-<section class="text">
-
-  <div class="inner">
-
-    <h2 class="center">Featured</h2>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, aperiam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, quia.</p>
-
-  </div>
-  <!-- end .inner -->
-
-</section>
-<!-- end section.text -->
-
-<section class="grid featured">
-
-  <div class="inner">
-
-  {% for feature in site.data.featured %}
-    <div class="item">
-      <a href="{{ feature.url }}" class="{{ feature.class }}">{{ feature.title }}</a>
-      <p>
-        <strong>{{ feature.web }}</strong><br/>
-        {{ feature.date }}
-      </p>
-    </div>
-  {% endfor %}
-
-  </div>
-  <!-- end .inner -->
-
-</section>
-<!-- end .section.grid.features -->

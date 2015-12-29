@@ -7,9 +7,9 @@ layout: page
 
     <div class="inner">
 
-      <h2>{{ project.title }}</h2>
+      <h2>{{ page.title }}</h2>
 
-      <p class="intro">{{ content }}</p>
+      {{ content }}
 
     </div>
     <!-- end .inner -->
@@ -18,117 +18,45 @@ layout: page
   <!-- end section.text -->
 
   <section class="carousel">
-
-    <div class="slide" style="background-image: url(img/content/carousel/1.jpg)"></div>
-    <div class="slide" style="background-image: url(img/content/carousel/1.jpg)"></div>
-    <div class="slide" style="background-image: url(img/content/carousel/1.jpg)"></div>
-    <div class="slide" style="background-image: url(img/content/carousel/1.jpg)"></div>
-    <div class="slide" style="background-image: url(img/content/carousel/1.jpg)"></div>
-    <div class="slide" style="background-image: url(img/content/carousel/1.jpg)"></div>
-    <div class="slide" style="background-image: url(img/content/carousel/1.jpg)"></div>
-
+  {% for img in page.images %}
+    <div class="slide" style="background-image: url({{ img.path }})"></div>
+  {% endfor %}
   </section>
   <!-- end section.carousel -->
 
 </section>
 <!-- end section.story -->
 
-<section class="mosaic projects border">
+<section class="text">
 
   <div class="inner">
 
-    <a class="item" href="project.html" style="background-image: url(img/content/mosaic/item.jpg);">
+    <h2 class="center">Featured</h2>
 
-      <span class="item-inner">
-        <h3>Project title</h3>
-        <p>Field</p>
-      </span>
-      <!-- end .item-inner -->
-
-    </a>
-
-    <a class="item tall" href="project.html" style="background-image: url(img/content/mosaic/item-tall.jpg);">
-
-      <span class="item-inner">
-        <h3>Project title</h3>
-        <p>Field</p>
-      </span>
-      <!-- end .item-inner -->
-
-    </a>
-
-    <a class="item" href="project.html" style="background-image: url(img/content/mosaic/item.jpg);">
-
-      <span class="item-inner">
-        <h3>Project title</h3>
-        <p>Field</p>
-      </span>
-      <!-- end .item-inner -->
-
-    </a>
-
-    <a class="item" href="project.html" style="background-image: url(img/content/mosaic/item.jpg);">
-
-      <span class="item-inner">
-        <h3>Project title</h3>
-        <p>Field</p>
-      </span>
-      <!-- end .item-inner -->
-
-    </a>
-
-    <a class="item" href="project.html" style="background-image: url(img/content/mosaic/item.jpg);">
-
-      <span class="item-inner">
-        <h3>Project title</h3>
-        <p>Field</p>
-      </span>
-      <!-- end .item-inner -->
-
-    </a>
-
-    <a class="item" href="project.html" style="background-image: url(img/content/mosaic/item.jpg);">
-
-      <span class="item-inner">
-        <h3>Project title</h3>
-        <p>Field</p>
-      </span>
-      <!-- end .item-inner -->
-
-    </a>
-
-    <a class="item tall" href="project.html" style="background-image: url(img/content/mosaic/item-tall.jpg);">
-
-      <span class="item-inner">
-        <h3>Project title</h3>
-        <p>Field</p>
-      </span>
-      <!-- end .item-inner -->
-
-    </a>
-
-    <a class="item tall" href="project.html" style="background-image: url(img/content/mosaic/item-tall.jpg);">
-
-      <span class="item-inner">
-        <h3>Project title</h3>
-        <p>Field</p>
-      </span>
-      <!-- end .item-inner -->
-
-    </a>
-
-    <a class="item" href="project.html" style="background-image: url(img/content/mosaic/item.jpg);">
-
-      <span class="item-inner">
-        <h3>Project title</h3>
-        <p>Field</p>
-      </span>
-      <!-- end .item-inner -->
-
-    </a>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, aperiam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, quia.</p>
 
   </div>
   <!-- end .inner -->
 
 </section>
-<!-- end section.mosaic -->
+<!-- end section.text -->
+
+<section class="grid featured">
+
+  <div class="inner">
+
+  {% for feature in site.data.featured %}
+    <div class="item">
+      <a href="{{ feature.url }}" class="{{ feature.class }}">{{ feature.title }}</a>
+      <p>
+        <strong>{{ feature.web }}</strong><br/>
+        {{ feature.date }}
+      </p>
+    </div>
+  {% endfor %}
+
+  </div>
+  <!-- end .inner -->
+
+</section>
+<!-- end .section.grid.features -->

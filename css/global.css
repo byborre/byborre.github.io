@@ -400,21 +400,10 @@ nav {
   transition: background .4s ease, transform .4s ease, padding .6s ease, height .6s ease, -webkit-transform .4s ease; }
   nav.sticky {
     position: fixed;
-    top: 0; }
-    nav.sticky.headroom--not-top {
-      background: rgba(255, 255, 255, 0.9);
-      padding: 50px 0;
-      height: 126px; }
-      nav.sticky.headroom--not-top.headroom--unpinned {
-        -webkit-transform: translateY(-100%);
-            -ms-transform: translateY(-100%);
-                transform: translateY(-100%); }
+    top: 0;
+    background: rgba(255, 255, 255, 0.9); }
     nav.sticky + * {
       margin-top: 175px; }
-    nav.sticky + section.product {
-      margin-top: 0; }
-    nav.sticky + section.story:nth-child(2) {
-      margin-top: 0; }
   nav .inner {
     max-width: 1166px;
     width: -webkit-calc(100% - 100px);
