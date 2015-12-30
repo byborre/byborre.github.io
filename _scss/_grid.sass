@@ -15,39 +15,12 @@ section.grid
     background: no-repeat center
     text-indent: -9999px
 
-    &.dior
-      +background-image-retina('../img/content/about/work/dior', 'png', 114px, 46px)
-
-    &.lidewij-edelkoort
-      +background-image-retina('../img/content/about/work/lidewij-edelkoort', 'png', 147px, 50px)
-
-    &.moncler
-      +background-image-retina('../img/content/about/work/moncler', 'png', 152px, 69px)
-
-    &.louis-vuitton
-      +background-image-retina('../img/content/about/work/louis-vuitton', 'png', 62px, 61px)
-
-    &.moba13
-      +background-image-retina('../img/content/about/work/moba13', 'png', 139px, 45px)
-
-    &.nike
-      +background-image-retina('../img/content/about/work/nike', 'png', 124px, 65px)
-
-    &.trend-union
-      +background-image-retina('../img/content/about/work/trend-union', 'png', 123px, 123px)
-
-    &.philips
-      +background-image-retina('../img/content/about/work/philips', 'png', 133px, 153px)
-
-    &.wired
-      +background-image-retina('../img/content/about/featured/wired', 'png', 186px, 39px)
-
-
   p
     font-family: $open-sans
     font-size: 14px
     color: #212121
     line-height: 19px
+    text-align: center
 
   h2
     font-family: $open-sans
@@ -56,78 +29,47 @@ section.grid
     &.center
       text-align: center
 
-@media only screen and (max-width: 868px)
 
-  section.grid
+section.grid-featured
+  max-width: 960px
+  width: 100%
+  margin: 0 auto
 
-    &.work
+  .inner
+    width: 100%
 
-      .item
-        width: 50%
+  .items
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    flex-wrap: wrap
 
-        a
-          margin-left: auto
-          margin-right: auto
-          width: 100%
+  .item
+    display: block
+    width: 223px
+    min-height: 300px
+    position: relative
 
-    &.featured
+  a
+    display: block
+    width: 223px
+    height: 223px
+    text-indent: -9999px
+    background-repeat: no-repeat
+    background-position: center center
 
-      .item
-        width: 50%
-
-        a
-          margin-left: auto
-          margin-right: auto
-
-@media only screen and (max-width: 767px)
-
-  section.grid
-
-    &.featured
-
-      .item
-        width: 100%
-
-@media only screen and (max-width: 422px)
-
-  section.grid
-
-    .inner
-      width: calc(100% - 30px)
-
-    &.featured
-
-      a
-        height: 100px
-
-      p
-        margin-top: 0
-
-@media only screen and (max-width: 414px)
-
-  section.grid
-    text-align: center
+  p
     font-family: $open-sans
+    font-size: 14px
     color: #212121
-    font-size: 20px
-    line-height: 1.65em
-    font-weight: bold
+    line-height: 1.4em
+    text-align: center
+    margin: 2em 0
 
-    .item
-      width: auto
-      float: initial
-      display: inline
+  h2
+    font-family: $open-sans
+    font-size: 24px
+    margin: 2em 0
 
-      &:not(:first-child):before
-        content: " / "
-
-      a
-        text-indent: 0
-        background: none
-        display: inline
-
-      p
-        display: none
-
-    &.featured
-      margin-top: -60px
+    &.center
+      text-align: center

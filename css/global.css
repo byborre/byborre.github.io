@@ -617,7 +617,8 @@ section.text {
     padding-bottom: 126px; }
   section.text h2 {
     font-family: "Open Sans", sans-serif;
-    font-size: 24px; }
+    font-size: 24px;
+    margin: 2em 0; }
     section.text h2.center {
       text-align: center; }
   section.text p, section.text li {
@@ -642,6 +643,8 @@ section.text {
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between; }
+  section.text .column h2 {
+    margin-bottom: 0.2em; }
   section.text a.button {
     border: none;
     background: #4A4A4A;
@@ -1041,119 +1044,66 @@ section.grid {
     height: 223px;
     background: no-repeat center;
     text-indent: -9999px; }
-    section.grid .item.dior {
-      background-image: url("../img/content/about/work/dior.png");
-      background-size: 114px 46px; }
-      @media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
-        section.grid .item.dior {
-          background-image: url("../img/content/about/work/dior@2x.png"); } }
-    section.grid .item.lidewij-edelkoort {
-      background-image: url("../img/content/about/work/lidewij-edelkoort.png");
-      background-size: 147px 50px; }
-      @media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
-        section.grid .item.lidewij-edelkoort {
-          background-image: url("../img/content/about/work/lidewij-edelkoort@2x.png"); } }
-    section.grid .item.moncler {
-      background-image: url("../img/content/about/work/moncler.png");
-      background-size: 152px 69px; }
-      @media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
-        section.grid .item.moncler {
-          background-image: url("../img/content/about/work/moncler@2x.png"); } }
-    section.grid .item.louis-vuitton {
-      background-image: url("../img/content/about/work/louis-vuitton.png");
-      background-size: 62px 61px; }
-      @media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
-        section.grid .item.louis-vuitton {
-          background-image: url("../img/content/about/work/louis-vuitton@2x.png"); } }
-    section.grid .item.moba13 {
-      background-image: url("../img/content/about/work/moba13.png");
-      background-size: 139px 45px; }
-      @media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
-        section.grid .item.moba13 {
-          background-image: url("../img/content/about/work/moba13@2x.png"); } }
-    section.grid .item.nike {
-      background-image: url("../img/content/about/work/nike.png");
-      background-size: 124px 65px; }
-      @media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
-        section.grid .item.nike {
-          background-image: url("../img/content/about/work/nike@2x.png"); } }
-    section.grid .item.trend-union {
-      background-image: url("../img/content/about/work/trend-union.png");
-      background-size: 123px 123px; }
-      @media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
-        section.grid .item.trend-union {
-          background-image: url("../img/content/about/work/trend-union@2x.png"); } }
-    section.grid .item.philips {
-      background-image: url("../img/content/about/work/philips.png");
-      background-size: 133px 153px; }
-      @media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
-        section.grid .item.philips {
-          background-image: url("../img/content/about/work/philips@2x.png"); } }
-    section.grid .item.wired {
-      background-image: url("../img/content/about/featured/wired.png");
-      background-size: 186px 39px; }
-      @media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
-        section.grid .item.wired {
-          background-image: url("../img/content/about/featured/wired@2x.png"); } }
   section.grid p {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     color: #212121;
-    line-height: 19px; }
+    line-height: 19px;
+    text-align: center; }
   section.grid h2 {
     font-family: "Open Sans", sans-serif;
     font-size: 24px; }
     section.grid h2.center {
       text-align: center; }
 
-@media only screen and (max-width: 868px) {
-  section.grid.work .item {
-    width: 50%; }
-    section.grid.work .item a {
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%; }
-  section.grid.featured .item {
-    width: 50%; }
-    section.grid.featured .item a {
-      margin-left: auto;
-      margin-right: auto; } }
-
-@media only screen and (max-width: 767px) {
-  section.grid.featured .item {
-    width: 100%; } }
-
-@media only screen and (max-width: 422px) {
-  section.grid .inner {
-    width: -webkit-calc(100% - 30px);
-    width: calc(100% - 30px); }
-  section.grid.featured a {
-    height: 100px; }
-  section.grid.featured p {
-    margin-top: 0; } }
-
-@media only screen and (max-width: 414px) {
-  section.grid {
-    text-align: center;
+section.grid-featured {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto; }
+  section.grid-featured .inner {
+    width: 100%; }
+  section.grid-featured .items {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+  section.grid-featured .item {
+    display: block;
+    width: 223px;
+    min-height: 300px;
+    position: relative; }
+  section.grid-featured a {
+    display: block;
+    width: 223px;
+    height: 223px;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-position: center center; }
+  section.grid-featured p {
     font-family: "Open Sans", sans-serif;
+    font-size: 14px;
     color: #212121;
-    font-size: 20px;
-    line-height: 1.65em;
-    font-weight: bold; }
-    section.grid .item {
-      width: auto;
-      float: initial;
-      display: inline; }
-      section.grid .item:not(:first-child):before {
-        content: " / "; }
-      section.grid .item a {
-        text-indent: 0;
-        background: none;
-        display: inline; }
-      section.grid .item p {
-        display: none; }
-    section.grid.featured {
-      margin-top: -60px; } }
+    line-height: 1.4em;
+    text-align: center;
+    margin: 2em 0; }
+  section.grid-featured h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    margin: 2em 0; }
+    section.grid-featured h2.center {
+      text-align: center; }
 
 section.product {
   background-color: #EEE; }

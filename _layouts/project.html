@@ -17,6 +17,8 @@ layout: page
   </section>
   <!-- end section.text -->
 
+  {% if page.images %}
+
   <section class="carousel">
   {% for img in page.images %}
     <div class="slide" style="background-image: url({{ img.path }})"></div>
@@ -24,39 +26,32 @@ layout: page
   </section>
   <!-- end section.carousel -->
 
+  {% endif %}
+
 </section>
 <!-- end section.story -->
 
-<section class="text">
+{% if page.featured %}
+
+<section class="grid-featured">
 
   <div class="inner">
-
     <h2 class="center">Featured</h2>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, aperiam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, quia.</p>
-
-  </div>
-  <!-- end .inner -->
-
-</section>
-<!-- end section.text -->
-
-<section class="grid featured">
-
-  <div class="inner">
-
-  {% for feature in site.data.featured %}
-    <div class="item">
-      <a href="{{ feature.url }}" class="{{ feature.class }}">{{ feature.title }}</a>
-      <p>
-        <strong>{{ feature.web }}</strong><br/>
-        {{ feature.date }}
-      </p>
+    <div class="items">
+    {% for feature in page.featured %}
+      <div class="item">
+        <a href="{{ feature.url }}" style="{% if feature.image %}background-image: url({{ feature.image }});{% else %}background-color: #eee{% endif %}">
+          {{ feature.title }}
+        </a>
+        <p>
+          <strong>{{ feature.title }}</strong><br/>
+          {{ feature.date }}
+        </p>
+      </div>
+    {% endfor %}
     </div>
-  {% endfor %}
-
   </div>
-  <!-- end .inner -->
-
 </section>
 <!-- end .section.grid.features -->
+{% endif %}
