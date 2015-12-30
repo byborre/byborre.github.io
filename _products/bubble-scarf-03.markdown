@@ -1,17 +1,21 @@
 ---
-layout: project
-title:  "Summer Fold Out Chair"
-people: "Maarten Baas / Louis Vuiton"
-homepage: true
-category: prototypes
-cover: "/img/content/highlights/2.jpg"
+layout: product
+title:  "Bubble Scarf 01"
+shopifyid: 3861708743
+name: "Bubble Scarf 01"
+handle: "bubble-scarf-01"
+price_euro: 219
+homepage: false
+count: 200
+date:   2015-12-10 09:11:03
+categories: products
+cover: "/img/content/product/hero.jpg"
 images:
   - path: "/img/content/carousel/1.jpg"
   - path: "/img/content/carousel/1.jpg"
   - path: "/img/content/carousel/1.jpg"
   - path: "/img/content/carousel/1.jpg"
-date:   2015-12-10 09:11:03
-categories: projects
+info: "Product Information recap. Material or alike."
 ---
 
 Little story on the product lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur massa in maximus eleifend. Mauris  tristique bibendum odio.

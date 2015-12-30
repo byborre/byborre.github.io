@@ -5,24 +5,31 @@ title: Shop
 <section class="mosaic wide">
 
   <div class="inner">
-
-    {% for product in site.products %}
-    <a class="item" href="{{ product.url }}" style="background-image: url(/img/content/mosaic/item.jpg);">
-      <span class="item-inner">
-        <h3>{{ product.title }}</h3>
-        <p>{{ product.count }}pcs. €{{ product.price_euro }},-</p>
-      </span>
-      <!-- end .item-inner -->
-    </a>
-    {% endfor %}
-
-    <div class="row"><p>Shipping Worlwide for &euro;10.</p></div>
-
-    <div class="row"><p>Mail to <a href="mailto:store@byborre.com">store@byborre.com</a> for any questions about this product Check the <a class="modal-sales" href="#">Shipping &amp; Returns</a> for more infomation</p></div>
-
-
+    <div class="items">
+      {% for product in site.products %}
+      <a class="item" href="{{ product.url }}" style="background-image: url(/img/content/mosaic/item.jpg);">
+        <span class="item-inner">
+          <h3>{{ product.title }}</h3>
+          <p>{{ product.count }}pcs. €{{ product.price_euro }},-</p>
+        </span>
+        <!-- end .item-inner -->
+      </a>
+      {% endfor %}
+    </div>
   </div>
 
 </section>
 <!-- end section.mosaic -->
 
+<section class="text">
+
+  <div class="inner">
+
+    <p class="intro">Shipping Worlwide for &euro;10.</p>
+
+    <p>Mail to <a href="mailto:store@byborre.com">store@byborre.com</a> for any questions about this product Check the <a class="modal-sales" href="#">Shipping &amp; Returns</a> for more infomation</p>
+
+  </div>
+  <!-- end .inner -->
+
+</section>

@@ -2,7 +2,8 @@
 layout: project
 title:  "Summer Fold Out Chair"
 people: "Maarten Baas / Louis Vuiton"
-homepage: true
+homepage: false
+category: prototypes
 cover: "/img/content/highlights/2.jpg"
 images:
   - path: "/img/content/carousel/1.jpg"
