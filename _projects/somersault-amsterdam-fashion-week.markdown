@@ -3,7 +3,7 @@ layout: project
 title:  "SOMERSAULT / Amsterdam Fashion Week"
 people: "Dutch national gymnastics team"
 homepage: false
-category: collaborations
+category: commissions
 cover: "/img/content/highlights/2.jpg"
 images:
   - path: "/img/content/carousel/1.jpg"

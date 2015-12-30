@@ -3,7 +3,7 @@ layout: project
 title:  "FUTURE RELIC 03 / Daniel Arsham"
 people: "Daniel Arsham"
 homepage: false
-category: commisions
+category: commissions
 cover: "/img/content/highlights/2.jpg"
 images:
   - path: "/img/content/carousel/1.jpg"

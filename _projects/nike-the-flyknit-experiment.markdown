@@ -3,7 +3,7 @@ layout: project
 title:  "NIKE / The Flyknit experience"
 people: "Nike"
 homepage: false
-category: commisions
+category: commissions
 cover: "/img/content/highlights/2.jpg"
 images:
   - path: "/img/content/carousel/1.jpg"
