@@ -14,20 +14,21 @@
     max-width: (1165px + 26px + 26px)
     width: 100%
     margin: 0 auto
-    padding-left: 26px
-    margin-bottom: -26px
+
+  .items
+    display: flex
+    flex-direction: row
+    justify-content: center
+    flex-wrap: wrap
 
   .item
-    width: 371px
-    height: 371px
-    display: block
-    margin-bottom: 26px
+    width: 350px
+    height: 350px
+    display: inline-block
+    margin: 20px
     background-size: cover
     background-position: center
     position: relative
-
-    &.tall
-      height: 517px
 
     .item-inner
       background: rgba(255,255,255,0.85)
@@ -57,65 +58,9 @@
       .item-inner
         opacity: 1
 
-  &.projects
+  h2
+    font-family: $open-sans
+    font-size: 24px
 
-    .item
-
-      .item-inner
-        opacity: 1
-
-      &:hover
-
-        .item-inner
-          opacity: 0
-
-@media only screen and (max-width: 1265px)
-
-  .mosaic
-
-    .inner
-      max-width: (371px + 371px + 26px + 26px + 26px)
-
-@media only screen and (max-width: 868px)
-
-  .mosaic
-
-    .inner
-      max-width: 371px
-      padding-left: 0
-
-@media only screen and (max-width: 422px)
-
-  .mosaic
-
-    .item
-      width: 290px
-      height: 290px
-      margin-left: auto
-      margin-right: auto
-
-      &.tall
-        height: 404px
-
-@media only screen and (max-width: 414px)
-
-  .mosaic
-
-    .inner
-      width: calc(100% - 30px)
-      max-width: initial
-
-    .item
-      width: 100%
-      height: initial
-
-      &:before
-        content: ""
-        display: block
-        padding-top: 100%
-
-      &.tall
-        height: initial
-
-        &:before
-          padding-top: 140%
+    &.center
+      text-align: center

@@ -374,11 +374,25 @@ html {
 *:before,
 *:after {
   -webkit-box-sizing: inherit;
-          box-sizing: inherit; }
+          box-sizing: inherit;
+  margin: 0; }
+
+html, body {
+  height: 100%; }
 
 body {
   -webkit-font-smoothing: antialiased;
   background-color: white; }
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; }
+
+.page-wrap:after {
+  content: "";
+  display: block;
+  height: 182px; }
 
 a {
   color: inherit;
@@ -747,19 +761,32 @@ section.carousel .slide {
   .mosaic .inner {
     max-width: 1217px;
     width: 100%;
-    margin: 0 auto;
-    padding-left: 26px;
-    margin-bottom: -26px; }
+    margin: 0 auto; }
+  .mosaic .items {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
   .mosaic .item {
-    width: 371px;
-    height: 371px;
-    display: block;
-    margin-bottom: 26px;
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    margin: 20px;
     background-size: cover;
     background-position: center;
     position: relative; }
-    .mosaic .item.tall {
-      height: 517px; }
     .mosaic .item .item-inner {
       background: rgba(255, 255, 255, 0.85);
       position: absolute;
@@ -798,45 +825,11 @@ section.carousel .slide {
         margin-top: 6px; }
     .mosaic .item:hover .item-inner {
       opacity: 1; }
-  .mosaic.projects .item .item-inner {
-    opacity: 1; }
-  .mosaic.projects .item:hover .item-inner {
-    opacity: 0; }
-
-@media only screen and (max-width: 1265px) {
-  .mosaic .inner {
-    max-width: 820px; } }
-
-@media only screen and (max-width: 868px) {
-  .mosaic .inner {
-    max-width: 371px;
-    padding-left: 0; } }
-
-@media only screen and (max-width: 422px) {
-  .mosaic .item {
-    width: 290px;
-    height: 290px;
-    margin-left: auto;
-    margin-right: auto; }
-    .mosaic .item.tall {
-      height: 404px; } }
-
-@media only screen and (max-width: 414px) {
-  .mosaic .inner {
-    width: -webkit-calc(100% - 30px);
-    width: calc(100% - 30px);
-    max-width: initial; }
-  .mosaic .item {
-    width: 100%;
-    height: initial; }
-    .mosaic .item:before {
-      content: "";
-      display: block;
-      padding-top: 100%; }
-    .mosaic .item.tall {
-      height: initial; }
-      .mosaic .item.tall:before {
-        padding-top: 140%; } }
+  .mosaic h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px; }
+    .mosaic h2.center {
+      text-align: center; }
 
 .social-media-box {
   position: absolute;
@@ -940,11 +933,10 @@ section.carousel .slide {
 footer {
   width: 100%;
   height: 100px;
-  padding-top: 40px;
   font-family: "Open Sans", sans-serif;
-  color: #4A4A4A; }
-  .mosaic.border + footer {
-    padding-top: 0; }
+  color: #4A4A4A;
+  border-top: 1px solid #EEE;
+  padding-top: 58px; }
   footer .inner {
     max-width: 714px;
     width: 100%;
@@ -1023,78 +1015,95 @@ footer {
       position: initial; } }
 
 section.grid {
-  text-align: center; }
-  section.grid .inner {
-    max-width: 960px;
-    width: 100%;
-    margin: 0 auto;
-    overflow: hidden; }
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
   section.grid .item {
-    float: left; }
-  section.grid a {
     display: block;
+    width: 223px;
+    height: 223px;
     background: no-repeat center;
-    text-indent: -9999px;
-    height: 223px; }
-    section.grid a.dior {
+    text-indent: -9999px; }
+    section.grid .item.dior {
       background-image: url("../img/content/about/work/dior.png");
       background-size: 114px 46px; }
       @media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
-        section.grid a.dior {
+        section.grid .item.dior {
           background-image: url("../img/content/about/work/dior@2x.png"); } }
-    section.grid a.lidewij-edelkoort {
+    section.grid .item.lidewij-edelkoort {
       background-image: url("../img/content/about/work/lidewij-edelkoort.png");
       background-size: 147px 50px; }
       @media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
-        section.grid a.lidewij-edelkoort {
+        section.grid .item.lidewij-edelkoort {
           background-image: url("../img/content/about/work/lidewij-edelkoort@2x.png"); } }
-    section.grid a.moncler {
+    section.grid .item.moncler {
       background-image: url("../img/content/about/work/moncler.png");
       background-size: 152px 69px; }
       @media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
-        section.grid a.moncler {
+        section.grid .item.moncler {
           background-image: url("../img/content/about/work/moncler@2x.png"); } }
-    section.grid a.louis-vuitton {
+    section.grid .item.louis-vuitton {
       background-image: url("../img/content/about/work/louis-vuitton.png");
       background-size: 62px 61px; }
       @media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
-        section.grid a.louis-vuitton {
+        section.grid .item.louis-vuitton {
           background-image: url("../img/content/about/work/louis-vuitton@2x.png"); } }
-    section.grid a.moba13 {
+    section.grid .item.moba13 {
       background-image: url("../img/content/about/work/moba13.png");
       background-size: 139px 45px; }
       @media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
-        section.grid a.moba13 {
+        section.grid .item.moba13 {
           background-image: url("../img/content/about/work/moba13@2x.png"); } }
-    section.grid a.nike {
+    section.grid .item.nike {
       background-image: url("../img/content/about/work/nike.png");
       background-size: 124px 65px; }
       @media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
-        section.grid a.nike {
+        section.grid .item.nike {
           background-image: url("../img/content/about/work/nike@2x.png"); } }
-    section.grid a.trend-union {
+    section.grid .item.trend-union {
       background-image: url("../img/content/about/work/trend-union.png");
       background-size: 123px 123px; }
       @media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
-        section.grid a.trend-union {
+        section.grid .item.trend-union {
           background-image: url("../img/content/about/work/trend-union@2x.png"); } }
-    section.grid a.philips {
+    section.grid .item.philips {
       background-image: url("../img/content/about/work/philips.png");
       background-size: 133px 153px; }
       @media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
-        section.grid a.philips {
+        section.grid .item.philips {
           background-image: url("../img/content/about/work/philips@2x.png"); } }
-    section.grid a.wired {
+    section.grid .item.wired {
       background-image: url("../img/content/about/featured/wired.png");
       background-size: 186px 39px; }
       @media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
-        section.grid a.wired {
+        section.grid .item.wired {
           background-image: url("../img/content/about/featured/wired@2x.png"); } }
   section.grid p {
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     color: #212121;
     line-height: 19px; }
+  section.grid h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px; }
+    section.grid h2.center {
+      text-align: center; }
 
 @media only screen and (max-width: 868px) {
   section.grid.work .item {

@@ -20,34 +20,28 @@ title: Projects
 <!-- end section.text -->
 
 <section class="grid work">
-
-  <div class="inner">
   {% for brand in site.data.brands %}
-    <div class="item">
-      <a href="#" class="{{ brand.class }}">{{ brand.title }}}</a>
+    <div class="item {{ brand.class }}">
+      {{ brand.title }}
     </div>
   {% endfor %}
-  </div>
-  <!-- end .inner -->
-
 </section>
 <!-- end .section.grid.work -->
 
-<section class="mosaic projects border">
+<section class="mosaic projects">
 
   <div class="inner">
     <h2 class="center">Prototypes</h2>
-  </div>
-
-  <div class="inner">
+    <div class="items">
     {% for project in site.projects %}
-    <a class="item" href="{{ project.url }}" style="background-image: url(/img/content/mosaic/item.jpg);">
-      <span class="item-inner">
-        <h3>{{ project.title }}</h3>
-        <p>Field</p>
-      </span>
-    </a>
+      <a class="item" href="{{ project.url }}" style="background-image: url(/img/content/mosaic/item.jpg);">
+        <span class="item-inner">
+          <h3>{{ project.title }}</h3>
+          <p>Field</p>
+        </span>
+      </a>
     {% endfor %}
+    </div>
   </div>
   <!-- end .inner -->
 
