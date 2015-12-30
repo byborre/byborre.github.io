@@ -602,23 +602,32 @@ section.text {
     margin: 0 auto;
     padding-bottom: 126px; }
   section.text h2 {
-    margin: 0;
     font-family: "Open Sans", sans-serif;
     font-size: 24px; }
     section.text h2.center {
       text-align: center; }
-  section.text p {
+  section.text p, section.text li {
     margin: 20px 0 0;
     font-family: "Bitter", serif;
     font-size: 18px;
     line-height: 24px; }
-    section.text p.intro {
+    section.text p.intro, section.text li.intro {
       font-size: 25px;
       line-height: 30px; }
-  section.text .column {
-    float: left;
-    width: -webkit-calc(100% / 3);
-    width: calc(100% / 3); }
+  section.text .columns {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
   section.text a.button {
     border: none;
     background: #4A4A4A;
@@ -1013,22 +1022,6 @@ footer {
       margin: 20px 0;
       position: initial; } }
 
-body.modal-active > * {
-  display: none; }
-
-body.modal-active > section.modal {
-  display: block; }
-
-section.modal {
-  min-height: 100vh;
-  background-color: rgba(238, 238, 238, 0.95); }
-  section.modal section.text {
-    padding-top: 50px; }
-
-@media only screen and (max-width: 768px) {
-  section.modal section.text {
-    padding-top: 0; } }
-
 section.grid {
   text-align: center; }
   section.grid .inner {
@@ -1102,25 +1095,6 @@ section.grid {
     font-size: 14px;
     color: #212121;
     line-height: 19px; }
-  section.grid.work {
-    border-bottom: 1px solid #EEE;
-    padding-bottom: 75px;
-    margin-bottom: 75px;
-    margin-top: -60px; }
-    section.grid.work .item {
-      width: 25%; }
-    section.grid.work a {
-      margin-bottom: 22px;
-      width: 223px; }
-  section.grid.featured {
-    margin-top: -100px;
-    margin-bottom: 20px; }
-    section.grid.featured .item {
-      width: -webkit-calc(100% / 3);
-      width: calc(100% / 3); }
-    section.grid.featured a {
-      width: 302px;
-      margin-top: 40px; }
 
 @media only screen and (max-width: 868px) {
   section.grid.work .item {

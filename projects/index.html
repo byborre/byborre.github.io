@@ -33,22 +33,13 @@ title: Projects
 </section>
 <!-- end .section.grid.work -->
 
-<section class="text">
-
-  <div class="inner">
-    <h2 class="center">Some of our projects.</h2>
-  </div>
-  <!-- end .inner -->
-
-</section>
-<!-- end section.text -->
-
-
 <section class="mosaic projects border">
 
   <div class="inner">
+    <h2 class="center">Prototypes</h2>
+  </div>
 
-
+  <div class="inner">
     {% for project in site.projects %}
     <a class="item" href="{{ project.url }}" style="background-image: url(/img/content/mosaic/item.jpg);">
       <span class="item-inner">
@@ -57,16 +48,6 @@ title: Projects
       </span>
     </a>
     {% endfor %}
-
-<!--
-    <a class="item tall" href="project.html" style="background-image: url(img/content/mosaic/item-tall.jpg);">
-      <span class="item-inner">
-        <h3>Project title</h3>
-        <p>Field</p>
-      </span>
-    </a>
- -->
-
   </div>
   <!-- end .inner -->
 

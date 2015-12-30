@@ -8,14 +8,13 @@ section.text
     padding-bottom: 126px
 
   h2
-    margin: 0
     font-family: $open-sans
     font-size: 24px
 
     &.center
       text-align: center
 
-  p
+  p, li
     margin: 20px 0 0
     font-family: $bitter
     font-size: 18px
@@ -26,10 +25,11 @@ section.text
       line-height: 30px
 
   .columns
+    display: flex
+    flex-direction: row
+    justify-content: space-between
 
   .column
-    float: left
-    width: calc(100% / 3)
 
   a.button
     +button
