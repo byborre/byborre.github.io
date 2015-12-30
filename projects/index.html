@@ -34,12 +34,56 @@ title: Projects
     <h2 class="center">Prototypes</h2>
     <div class="items">
     {% for project in site.projects %}
+      {% if project.category == 'prototypes' %}
       <a class="item" href="{{ project.url }}" style="background-image: url(/img/content/mosaic/item.jpg);">
         <span class="item-inner">
           <h3>{{ project.title }}</h3>
-          <p>Field</p>
+          <p>{{ project.people }}</p>
         </span>
       </a>
+      {% endif %}
+    {% endfor %}
+    </div>
+
+    <h2 class="center">Brand Collaborations</h2>
+    <div class="items">
+    {% for project in site.projects %}
+      {% if project.category == 'collaborations' %}
+      <a class="item" href="{{ project.url }}" style="background-image: url(/img/content/mosaic/item.jpg);">
+        <span class="item-inner">
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.people }}</p>
+        </span>
+      </a>
+      {% endif %}
+    {% endfor %}
+    </div>
+
+    <h2 class="center">Commissioned Work</h2>
+    <div class="items">
+    {% for project in site.projects %}
+      {% if project.category == 'commissions' %}
+      <a class="item" href="{{ project.url }}" style="background-image: url(/img/content/mosaic/item.jpg);">
+        <span class="item-inner">
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.people }}</p>
+        </span>
+      </a>
+      {% endif %}
+    {% endfor %}
+    </div>
+
+    <h2 class="center">Shows</h2>
+    <div class="items">
+    {% for project in site.projects %}
+      {% if project.category == 'shows' %}
+      <a class="item" href="{{ project.url }}" style="background-image: url(/img/content/mosaic/item.jpg);">
+        <span class="item-inner">
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.people }}</p>
+        </span>
+      </a>
+      {% endif %}
     {% endfor %}
     </div>
   </div>

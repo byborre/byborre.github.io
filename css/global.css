@@ -772,16 +772,16 @@ section.carousel .slide {
     -webkit-flex-direction: row;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap; }
   .mosaic .item {
-    width: 350px;
-    height: 350px;
+    width: 365px;
+    height: 365px;
     display: inline-block;
     margin: 20px;
     background-size: cover;
@@ -827,7 +827,8 @@ section.carousel .slide {
       opacity: 1; }
   .mosaic h2 {
     font-family: "Open Sans", sans-serif;
-    font-size: 24px; }
+    font-size: 24px;
+    margin: 20px 0 20px 0; }
     .mosaic h2.center {
       text-align: center; }
 
