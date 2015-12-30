@@ -35,7 +35,7 @@ title: Projects
     <div class="items">
     {% for project in site.projects %}
       {% if project.category == 'prototypes' %}
-      <a class="item" href="{{ project.url }}" style="background-image: url(/img/content/mosaic/item.jpg);">
+      <a class="item" href="{{ project.url }}" style="background-image: url({{ project.cover }});">
         <span class="item-inner">
           <h3>{{ project.title }}</h3>
           <p>{{ project.people }}</p>
