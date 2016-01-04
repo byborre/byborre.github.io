@@ -15,7 +15,7 @@ date:   2016-01-01 09:00:00
 categories: projects
 
 featured:
-  - title: "Flat byBorre - Innovative Textiles at Gallery 33"
+  - title: "Flat BYBORRE - Innovative Textiles at Gallery 33"
     url: http://www.want.nl/byborresxsw/
     image: /img/content/logos/Want_220.png
     date:
@@ -35,7 +35,7 @@ featured:
     image: /img/content/logos/Livescience_220.png
     date: "31 March 2014"
 
-  - title: "3D breien byBorre"
+  - title: "3D breien BYBORRE"
     url: https://ideas.bright.nl/editions/9-mei-2014/3d-breien
     image: /img/content/logos/Bright_220.png
     date:

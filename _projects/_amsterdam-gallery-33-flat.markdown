@@ -9,7 +9,7 @@ images:
 date:   2016-01-01 09:00:00
 categories: projects
 featured:
-  - title: "Flat byBorre - Innovative Textiles at Gallery 33"
+  - title: "Flat BYBORRE - Innovative Textiles at Gallery 33"
     url: https://vimeo.com/59747129
     image:
     date:
