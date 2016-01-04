@@ -645,7 +645,10 @@ section.text .columns {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
-          justify-content: space-between; }
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
 
 section.text .column h2 {
   margin-bottom: 0.2em; }
@@ -676,49 +679,6 @@ section.text a.button {
       height: 50px;
       line-height: 50px;
       font-size: 13px; } }
-
-section.text .chart {
-  margin-top: 25px;
-  border-top: 1px solid #979797;
-  color: #212121; }
-  section.text .chart .item {
-    border-bottom: 1px solid #979797;
-    overflow: hidden; }
-  section.text .chart .name {
-    float: left;
-    width: 110px;
-    font-family: "sofia-pro", sans-serif;
-    font-size: 17px;
-    font-weight: 600;
-    line-height: 26px;
-    padding: 19px 0 19px 10px; }
-  section.text .chart .value {
-    float: left;
-    width: -webkit-calc(100% - 110px);
-    width: calc(100% - 110px);
-    font-size: 17px;
-    line-height: 21px;
-    padding: 22px 0; }
-
-section.text .chart + .button {
-  margin-top: 50px; }
-
-@media only screen and (max-width: 768px) {
-  section.text .inner {
-    width: -webkit-calc(100% - 50px);
-    width: calc(100% - 50px); } }
-
-@media only screen and (max-width: 767px) {
-  section.text .column {
-    float: initial;
-    width: 100%; }
-  section.text .column + .column {
-    margin-top: 2em; } }
-
-@media only screen and (max-width: 414px) {
-  section.text .inner {
-    width: -webkit-calc(100% - 30px);
-    width: calc(100% - 30px); } }
 
 section.carousel {
   max-width: 1180px;
