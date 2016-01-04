@@ -10,8 +10,10 @@ images:
   - path: "/img/content/projects/bb-suit-01-access-anywhere/2-googlemaps.png"
   - path: "/img/content/projects/bb-suit-01-access-anywhere/3-BBsuitThijs-2.1.jpg"
   - path: "/img/content/projects/bb-suit-01-access-anywhere/4-22tracks.com-byborresxsw.png"
+
 date:   2016-01-01 09:00:00
 categories: projects
+
 featured:
   - title: "Flat byBorre - Innovative Textiles at Gallery 33"
     url: http://www.want.nl/byborresxsw/

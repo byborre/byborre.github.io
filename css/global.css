@@ -358,13 +358,13 @@ th {
 
 @font-face {
   font-family: 'Socialico';
-  src: url("../fonts/Socialico.eot");
-  src: url("../fonts/Socialico.eot?#iefix") format("embedded-opentype"), url("../fonts/Socialico.woff") format("woff"), url("../fonts/Socialico.ttf") format("truetype"), url("../fonts/Socialico.svg#b62d5081f1e281beb10c7d9c8e739045") format("svg"); }
+  src: url("/fonts/Socialico.eot");
+  src: url("/fonts/Socialico.eot?#iefix") format("embedded-opentype"), url("/fonts/Socialico.woff") format("woff"), url("/fonts/Socialico.ttf") format("truetype"), url("/fonts/Socialico.svg#b62d5081f1e281beb10c7d9c8e739045") format("svg"); }
 
 @font-face {
   font-family: 'Socialico Plus';
-  src: url("../fonts/Socialico Plus.eot");
-  src: url("../fonts/Socialico Plus.eot?#iefix") format("embedded-opentype"), url("../fonts/Socialico Plus.woff") format("woff"), url("../fonts/Socialico Plus.ttf") format("truetype"), url("../fonts/Socialico Plus.svg#b62d5081f1e281beb10c7d9c8e739045") format("svg"); }
+  src: url("/fonts/Socialico Plus.eot");
+  src: url("/fonts/Socialico Plus.eot?#iefix") format("embedded-opentype"), url("/fonts/Socialico Plus.woff") format("woff"), url("/fonts/Socialico Plus.ttf") format("truetype"), url("/fonts/Socialico Plus.svg#b62d5081f1e281beb10c7d9c8e739045") format("svg"); }
 
 html {
   -webkit-box-sizing: border-box;
@@ -378,7 +378,8 @@ html {
   margin: 0; }
 
 html, body {
-  height: 100%; }
+  height: 100%;
+  font-size: 85%; }
 
 body {
   -webkit-font-smoothing: antialiased;
@@ -402,9 +403,9 @@ nav {
   height: 175px;
   width: 100%;
   padding-top: 93px;
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  font-size: 12px;
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 700;
+  font-size: 140%;
   text-transform: uppercase;
   z-index: 100;
   position: relative;
@@ -509,7 +510,8 @@ nav {
   background-color: #D8D8D8;
   z-index: 0;
   text-align: center;
-  font-family: "Open Sans", sans-serif;
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 400;
   overflow: hidden; }
   .highlights .item {
     position: absolute;
@@ -524,7 +526,8 @@ nav {
       transition: width 0.4s cubic-bezier(0.4, 0, 1, 1), opacity 0.2s 0.4s ease; }
     .highlights .item h2 {
       margin: 0;
-      font-size: 28px; }
+      font-size: 28px;
+      font-weight: 700; }
     .highlights .item p {
       margin: 0;
       font-size: 15px;
@@ -577,23 +580,17 @@ nav {
     overflow-x: scroll;
     -webkit-overflow-scrolling: touch; }
     .highlights .inner {
-      width: -webkit-calc(200vw - 50px);
-      width: calc(200vw - 50px);
+      width: 100%;
       height: 100%; }
       .highlights .inner .item {
         height: 100%;
         position: relative;
-        float: left;
-        width: -webkit-calc(100vw - 25px);
-        width: calc(100vw - 25px); }
+        display: block;
+        width: 100%; }
         .highlights .inner .item:after {
           opacity: 0; }
         .highlights .inner .item .text {
           width: 100%; } }
-
-@media only screen and (max-width: 414px) {
-  .highlights {
-    bottom: 144px; } }
 
 section.story {
   background: #EEE;
@@ -616,14 +613,13 @@ section.text {
     margin: 0 auto;
     padding-bottom: 126px; }
   section.text h2 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "sofia-pro", sans-serif;
     font-size: 24px;
     margin: 2em 0; }
     section.text h2.center {
       text-align: center; }
   section.text p, section.text li {
     margin: 20px 0 0;
-    font-family: "Bitter", serif;
     font-size: 18px;
     line-height: 24px; }
     section.text p.intro, section.text li.intro {
@@ -648,7 +644,8 @@ section.text {
   section.text a.button {
     border: none;
     background: #4A4A4A;
-    font-family: "Open Sans", sans-serif;
+    font-family: "sofia-pro", sans-serif;
+    font-weight: 400;
     font-size: 12px;
     color: #FFF;
     line-height: 40px;
@@ -674,7 +671,7 @@ section.text {
     section.text .chart .name {
       float: left;
       width: 110px;
-      font-family: "Open Sans", sans-serif;
+      font-family: "sofia-pro", sans-serif;
       font-size: 17px;
       font-weight: 600;
       line-height: 26px;
@@ -683,7 +680,6 @@ section.text {
       float: left;
       width: -webkit-calc(100% - 110px);
       width: calc(100% - 110px);
-      font-family: "Bitter", serif;
       font-size: 17px;
       line-height: 21px;
       padding: 22px 0; }
@@ -754,7 +750,8 @@ section.carousel .slide {
 .mosaic {
   width: 100%;
   color: #212121;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 400; }
   .mosaic.border {
     border-top: 1px solid #EEE;
     border-bottom: 1px solid #EEE;
@@ -829,8 +826,9 @@ section.carousel .slide {
     .mosaic .item:hover .item-inner {
       opacity: 1; }
   .mosaic h2 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "sofia-pro", sans-serif;
     font-size: 24px;
+    font-weight: 700;
     margin: 20px 0 20px 0; }
     .mosaic h2.center {
       text-align: center; }
@@ -838,7 +836,7 @@ section.carousel .slide {
 .social-media-box {
   position: absolute;
   z-index: 100;
-  font-family: "Open Sans", sans-serif;
+  font-family: "sofia-pro", sans-serif;
   color: white;
   background: #4A4A4A;
   max-width: 956px;
@@ -867,8 +865,8 @@ section.carousel .slide {
   .social-media-box > p {
     margin: 0 23px 0 0;
     float: right;
-    font-weight: bold;
-    font-size: 12px;
+    font-weight: 700;
+    font-size: 100%;
     text-transform: uppercase;
     line-height: 32px; }
   .social-media-box #mc_embed_signup {
@@ -876,16 +874,16 @@ section.carousel .slide {
     .social-media-box #mc_embed_signup input {
       float: left;
       height: 32px;
-      font-family: "Open Sans", sans-serif;
+      font-family: "sofia-pro", sans-serif;
       border: none;
-      font-size: 10px;
+      font-size: 100%;
       -webkit-appearance: none;
       -webkit-border-radius: 0;
               border-radius: 0; }
       .social-media-box #mc_embed_signup input[type=email] {
         width: 290px;
         color: #000;
-        font-size: 12px;
+        font-size: 100%;
         padding-left: 10px;
         padding-right: 10px; }
         .social-media-box #mc_embed_signup input[type=email]::-webkit-input-placeholder {
@@ -937,7 +935,8 @@ section.carousel .slide {
 footer {
   width: 100%;
   height: 100px;
-  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-family: "sofia-pro", sans-serif;
   color: #4A4A4A;
   border-top: 1px solid #EEE;
   padding-top: 58px; }
@@ -1045,13 +1044,15 @@ section.grid {
     background: no-repeat center;
     text-indent: -9999px; }
   section.grid p {
-    font-family: "Open Sans", sans-serif;
+    font-family: "sofia-pro", sans-serif;
     font-size: 14px;
+    font-weight: 400;
     color: #212121;
     line-height: 19px;
     text-align: center; }
   section.grid h2 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "sofia-pro", sans-serif;
+    font-weight: 700;
     font-size: 24px; }
     section.grid h2.center {
       text-align: center; }
@@ -1092,15 +1093,17 @@ section.grid-featured {
     background-repeat: no-repeat;
     background-position: center center; }
   section.grid-featured p {
-    font-family: "Open Sans", sans-serif;
+    font-family: "sofia-pro", sans-serif;
+    font-weight: 400;
     font-size: 14px;
     color: #212121;
     line-height: 1.4em;
     text-align: center;
     margin: 2em 0; }
   section.grid-featured h2 {
-    font-family: "Open Sans", sans-serif;
+    font-family: "sofia-pro", sans-serif;
     font-size: 24px;
+    font-weight: 700;
     margin: 2em 0; }
     section.grid-featured h2.center {
       text-align: center; }
@@ -1127,7 +1130,7 @@ section.hero {
 section.timeline {
   padding: 140px 0 115px;
   background: #E1DFDF;
-  font-family: "Open Sans", sans-serif;
+  font-family: "sofia-pro", sans-serif;
   overflow: hidden; }
   section.timeline .inner {
     max-width: 959px;
@@ -1310,8 +1313,9 @@ section.timeline {
     width: calc(100% - 30px); } }
 
 section.form {
-  font-family: "Open Sans", sans-serif;
+  font-family: "sofia-pro", sans-serif;
   font-size: 19px;
+  font-weight: 400;
   color: #212121;
   line-height: 26px;
   padding-top: 80px;
@@ -1352,7 +1356,8 @@ section.form {
       section.form .row input[type=submit] {
         border: none;
         background: #4A4A4A;
-        font-family: "Open Sans", sans-serif;
+        font-family: "sofia-pro", sans-serif;
+        font-weight: 400;
         font-size: 12px;
         color: #FFF;
         line-height: 40px;
@@ -1410,8 +1415,8 @@ section.form {
       z-index: 2;
       display: block;
       border: 1px solid #9B9B9B;
-      font-family: "Open Sans", sans-serif;
-      font-weight: normal;
+      font-family: "sofia-pro", sans-serif;
+      font-weight: 400;
       background: #fff;
       height: 40px;
       color: #000;
@@ -1575,8 +1580,8 @@ section.form {
       padding: 0;
       cursor: pointer;
       background: #F7F5F2;
-      font-family: "Open Sans", sans-serif;
-      font-weight: 600;
+      font-family: "sofia-pro", sans-serif;
+      font-weight: 400;
       font-size: 13px;
       color: #212121;
       letter-spacing: 1.18px;

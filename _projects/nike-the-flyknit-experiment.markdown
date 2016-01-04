@@ -4,12 +4,11 @@ title:  "NIKE / The Flyknit experience"
 people: "Nike"
 homepage: false
 category: commissions
-cover: "/img/content/highlights/2.jpg"
+cover: "/img/content/projects/nike-the-flyknit-experiment/1-DSC_0151.jpg"
 images:
-  - path: "/img/content/carousel/1.jpg"
-  - path: "/img/content/carousel/1.jpg"
-  - path: "/img/content/carousel/1.jpg"
-  - path: "/img/content/carousel/1.jpg"
+  - path: "/img/content/projects/nike-the-flyknit-experiment/1-DSC_0151.jpg"
+  - path: "/img/content/projects/nike-the-flyknit-experiment/2-bb.portfolio-14.jpg"
+
 date:   2016-01-01 09:00:00
 categories: projects
 ---
