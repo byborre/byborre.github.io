@@ -7,7 +7,7 @@ title: Shop
   <div class="inner">
     <div class="items">
       {% for product in site.products %}
-      <a class="item" href="{{ product.url }}" style="background-image: url(/img/content/mosaic/item.jpg);">
+      <a class="item" href="{{ product.url }}" style="background-image: url({{ product.cover }});">
         <span class="item-inner">
           <h3>{{ product.title }}</h3>
           <p>{{ product.count }}pcs. €{{ product.price_euro }},-</p>

@@ -20,7 +20,6 @@ featured:
 
 ---
 
-As a next step in the quest of what wearable technology can become, BYBORRE founded a strong partner in CWI,
-the Dutch national research institute for mathematics and computer science.
+As a next step in the quest of what wearable technology can become, BYBORRE founded a strong partner in CWI, the Dutch national research institute for mathematics and computer science.
 
 The current generation of wearables consists of portable devices that are attached to the body. This demo shows the potential of a new generation of truly portable technology. During his lecture, Borre Akkersdijk wore a sweater with integrated sensors so that his mood is recorded live on screen for the audience. Researchers from CWI provided a part of the public audience with sensors, making a new way of interaction possible between the speaker and audience.

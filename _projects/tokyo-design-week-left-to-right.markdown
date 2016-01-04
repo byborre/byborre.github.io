@@ -4,12 +4,12 @@ title:  "TOKYO DESIGN WEEK / Left to right"
 people: "BaToMa"
 homepage: false
 category: shows
-cover: "/img/content/highlights/2.jpg"
+cover: "/img/content/projects/tokyo-design-week-left-to-right/L1030056.jpg"
+
 images:
-  - path: "/img/content/carousel/1.jpg"
-  - path: "/img/content/carousel/1.jpg"
-  - path: "/img/content/carousel/1.jpg"
-  - path: "/img/content/carousel/1.jpg"
+  - path: "/img/content/projects/tokyo-design-week-left-to-right/L1030056.jpg"
+  - path: "/img/content/projects/tokyo-design-week-left-to-right/L1030069.jpg"
+
 date:   2016-01-01 09:00:00
 categories: projects
 ---

@@ -379,7 +379,8 @@ html {
 
 html, body {
   height: 100%;
-  font-size: 85%; }
+  font-size: 85%;
+  color: #212121; }
 
 body {
   -webkit-font-smoothing: antialiased;
@@ -426,7 +427,7 @@ nav {
     margin: 0 auto;
     position: relative; }
   nav h1 {
-    background-image: url("../img/nav/logo.png");
+    background-image: url("../img/logo.png");
     background-size: 175px 26px;
     margin: 0 auto;
     width: 175px;
@@ -435,7 +436,7 @@ nav {
     display: block; }
     @media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
       nav h1 {
-        background-image: url("../img/nav/logo@2x.png"); } }
+        background-image: url("../img/logo@2x.png"); } }
     nav h1 a {
       display: block; }
   nav ul,
@@ -604,87 +605,101 @@ section.story {
   section.story > :first-child {
     margin-top: 80px; }
 
-section.text {
+section.text .inner {
+  max-width: 734px;
+  width: -webkit-calc(100% - 100px);
+  width: calc(100% - 100px);
+  margin: 0 auto;
+  padding-bottom: 126px; }
+
+section.text h2 {
+  font-family: "sofia-pro", sans-serif;
+  font-size: 24px;
+  margin: 2em 0; }
+  section.text h2.center {
+    text-align: center; }
+
+section.text p, section.text li {
+  margin: 20px 0 0;
+  font-size: 18px;
+  line-height: 24px; }
+  section.text p.intro, section.text li.intro {
+    font-size: 25px;
+    line-height: 30px; }
+
+section.text blockquote {
+  padding: 0 0 0 14px; }
+
+section.text .columns {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+section.text .column h2 {
+  margin-bottom: 0.2em; }
+
+section.text a {
+  color: #36A0CD; }
+
+section.text a:hover {
+  color: #88c7e1; }
+
+section.text a.button {
+  border: none;
+  background: #4A4A4A;
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #FFF;
+  line-height: 40px;
+  width: 185px;
+  height: 40px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  outline: none;
+  margin-top: 75px; }
+  @media only screen and (max-width: 414px) {
+    section.text a.button {
+      height: 50px;
+      line-height: 50px;
+      font-size: 13px; } }
+
+section.text .chart {
+  margin-top: 25px;
+  border-top: 1px solid #979797;
   color: #212121; }
-  section.text .inner {
-    max-width: 734px;
-    width: -webkit-calc(100% - 100px);
-    width: calc(100% - 100px);
-    margin: 0 auto;
-    padding-bottom: 126px; }
-  section.text h2 {
+  section.text .chart .item {
+    border-bottom: 1px solid #979797;
+    overflow: hidden; }
+  section.text .chart .name {
+    float: left;
+    width: 110px;
     font-family: "sofia-pro", sans-serif;
-    font-size: 24px;
-    margin: 2em 0; }
-    section.text h2.center {
-      text-align: center; }
-  section.text p, section.text li {
-    margin: 20px 0 0;
-    font-size: 18px;
-    line-height: 24px; }
-    section.text p.intro, section.text li.intro {
-      font-size: 25px;
-      line-height: 30px; }
-  section.text .columns {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-  section.text .column h2 {
-    margin-bottom: 0.2em; }
-  section.text a.button {
-    border: none;
-    background: #4A4A4A;
-    font-family: "sofia-pro", sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    color: #FFF;
-    line-height: 40px;
-    width: 185px;
-    height: 40px;
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    outline: none;
-    margin-top: 75px; }
-    @media only screen and (max-width: 414px) {
-      section.text a.button {
-        height: 50px;
-        line-height: 50px;
-        font-size: 13px; } }
-  section.text .chart {
-    margin-top: 25px;
-    border-top: 1px solid #979797;
-    color: #212121; }
-    section.text .chart .item {
-      border-bottom: 1px solid #979797;
-      overflow: hidden; }
-    section.text .chart .name {
-      float: left;
-      width: 110px;
-      font-family: "sofia-pro", sans-serif;
-      font-size: 17px;
-      font-weight: 600;
-      line-height: 26px;
-      padding: 19px 0 19px 10px; }
-    section.text .chart .value {
-      float: left;
-      width: -webkit-calc(100% - 110px);
-      width: calc(100% - 110px);
-      font-size: 17px;
-      line-height: 21px;
-      padding: 22px 0; }
-  section.text .chart + .button {
-    margin-top: 50px; }
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 26px;
+    padding: 19px 0 19px 10px; }
+  section.text .chart .value {
+    float: left;
+    width: -webkit-calc(100% - 110px);
+    width: calc(100% - 110px);
+    font-size: 17px;
+    line-height: 21px;
+    padding: 22px 0; }
+
+section.text .chart + .button {
+  margin-top: 50px; }
 
 @media only screen and (max-width: 768px) {
   section.text .inner {
@@ -816,7 +831,8 @@ section.carousel .slide {
               align-content: center;
       -webkit-transition: all .2s ease;
       transition: all .2s ease;
-      opacity: 0; }
+      opacity: 0;
+      padding: 16px; }
       .mosaic .item .item-inner h3,
       .mosaic .item .item-inner p {
         margin: 0;
@@ -946,7 +962,7 @@ footer {
     margin: 0 auto;
     position: relative; }
   footer h1 {
-    background-image: url("../img/footer/logo.png");
+    background-image: url("../img/logo.png");
     background-size: 137px 21px;
     margin: 0 auto;
     width: 137px;
@@ -955,7 +971,7 @@ footer {
     display: block; }
     @media (min--moz-device-pixel-ratio: 1.3), (-webkit-min-device-pixel-ratio: 1.3), (min-device-pixel-ratio: 1.3), (min-resolution: 1.3dppx) {
       footer h1 {
-        background-image: url("../img/footer/logo@2x.png"); } }
+        background-image: url("../img/logo@2x.png"); } }
     footer h1 a {
       display: block; }
   footer ul,
@@ -1593,3 +1609,9 @@ section.form {
     .slick-dots li.slick-active button {
       background: #4A4A4A;
       color: #FFFFFF; }
+
+#shopify-wrapper {
+  text-align: center;
+  margin: 20px 0; }
+  #shopify-wrapper #shopify-button {
+    width: 150px; }

@@ -4,14 +4,24 @@ title:  "PARIS FASHION WEEK / The First Cycle"
 people:
 homepage: false
 category: shows
-cover: "/img/content/highlights/2.jpg"
+cover: "/img/content/projects/paris-fashion-week-the-first-cycle/BYBORRE_ZAN2946.jpg"
+
 images:
-  - path: "/img/content/carousel/1.jpg"
-  - path: "/img/content/carousel/1.jpg"
-  - path: "/img/content/carousel/1.jpg"
-  - path: "/img/content/carousel/1.jpg"
+  - path: "/img/content/projects/paris-fashion-week-the-first-cycle/BYBORRE_ZAN2906.jpg"
+  - path: "/img/content/projects/paris-fashion-week-the-first-cycle/BYBORRE_ZAN2910.jpg"
+  - path: "/img/content/projects/paris-fashion-week-the-first-cycle/BYBORRE_ZAN2916.jpg"
+  - path: "/img/content/projects/paris-fashion-week-the-first-cycle/BYBORRE_ZAN2930.jpg"
+  - path: "/img/content/projects/paris-fashion-week-the-first-cycle/BYBORRE_ZAN2934.jpg"
+  - path: "/img/content/projects/paris-fashion-week-the-first-cycle/BYBORRE_ZAN2946.jpg"
+
 date:   2016-01-01 09:00:00
 categories: projects
+
+featured:
+  - title: "The First cycle"
+    url: https://vimeo.com/35475607
+    image: /img/content/logos/bb-avatar-box_220.png
+
 ---
 
 The First Cycle is the story from the yarn to the show. The fashion show started with a visualisation of a creative
@@ -20,18 +30,16 @@ for BYBORRE that is at least as important as the final pieces.
 
 In the credits of the show it was important for BYBORRE to thank also the circular knitting machine:
 
-„Dear Circular knitting machine,
+> Dear Circular knitting machine,
 
-I’m Grateful that I had the opportunity
-to work with you, to play with you,
-to learn from you and create with you.
+> I’m Grateful that I had the opportunity
+  to work with you, to play with you,
+  to learn from you and create with you.
 
-I hope that if you could talk you would
-tell me you enjoyed it too…
+> I hope that if you could talk you would
+  tell me you enjoyed it too…
 
-BYBORRE”
-
-[https://vimeo.com/35475607](https://vimeo.com/35475607)
+> BYBORRE
 
 (filmcredit: Niels Hoebers)
 (photocredit: Marie Taillefer / Jean Garcin

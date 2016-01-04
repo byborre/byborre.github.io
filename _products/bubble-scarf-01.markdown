@@ -9,12 +9,12 @@ homepage: true
 count: 200
 date:   2015-12-10 09:11:03
 categories: products
-cover: "/img/content/product/hero.jpg"
+cover: "/img/content/products/bubble-scarf-01/IMG_2645.JPG"
 images:
-  - path: "/img/content/carousel/1.jpg"
-  - path: "/img/content/carousel/1.jpg"
-  - path: "/img/content/carousel/1.jpg"
-  - path: "/img/content/carousel/1.jpg"
+  - path: "/img/content/products/bubble-scarf-01/12.jpg"
+  - path: "/img/content/products/bubble-scarf-01/IMG_2645.JPG"
+  - path: "/img/content/products/bubble-scarf-01/IMG_2649-copy01.jpg"
+
 info: "Product Information recap. Material or alike."
 ---
 

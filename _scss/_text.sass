@@ -1,5 +1,4 @@
 section.text
-  color: #212121
 
   .inner
     max-width: 734px
@@ -24,6 +23,9 @@ section.text
       font-size: 25px
       line-height: 30px
 
+  blockquote
+    padding: 0 0 0 14px
+
   .columns
     display: flex
     flex-direction: row
@@ -33,6 +35,12 @@ section.text
 
     h2
       margin-bottom: 0.2em
+
+  a
+    color: $secondary
+
+  a:hover
+    color: lighten($secondary, 20%)
 
   a.button
     +button
