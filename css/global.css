@@ -366,6 +366,49 @@ th {
   src: url("/fonts/Socialico Plus.eot");
   src: url("/fonts/Socialico Plus.eot?#iefix") format("embedded-opentype"), url("/fonts/Socialico Plus.woff") format("woff"), url("/fonts/Socialico Plus.ttf") format("truetype"), url("/fonts/Socialico Plus.svg#b62d5081f1e281beb10c7d9c8e739045") format("svg"); }
 
+@font-face {
+  font-family: 'icomoon';
+  src: url("/fonts/icomoon.woff?hdp8mh") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-globe:before {
+  content: "\f0ac"; }
+
+.icon-credit-card:before {
+  content: "\f09d"; }
+
+.icon-cc-visa:before {
+  content: "\f1f0"; }
+
+.icon-cc-mastercard:before {
+  content: "\f1f1"; }
+
+.icon-cc-paypal:before {
+  content: "\f1f4"; }
+
+.icon-twitter:before {
+  content: "\e900"; }
+
+.icon-facebook:before {
+  content: "\e901"; }
+
+.icon-instagram:before {
+  content: "\e902"; }
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
@@ -835,8 +878,6 @@ section.carousel .slide {
     line-height: 32px; }
     .social-media-box ul li {
       float: left; }
-      .social-media-box ul li.instagram {
-        font-family: "Socialico Plus"; }
     .social-media-box ul li + li {
       margin-left: 40px; }
   .social-media-box > p {
@@ -846,6 +887,8 @@ section.carousel .slide {
     font-size: 100%;
     text-transform: uppercase;
     line-height: 32px; }
+  .social-media-box .icon {
+    font-size: 0.8em; }
   .social-media-box #mc_embed_signup {
     float: right; }
     .social-media-box #mc_embed_signup input {
@@ -948,13 +991,13 @@ footer {
     font-size: 2.2em; }
     footer ul li {
       float: left; }
-      footer ul li.instagram {
-        font-family: "Socialico Plus"; }
     footer ul li + li {
       margin-left: 40px; }
   footer p {
     font-size: 1em;
     right: 0; }
+  footer .icon {
+    font-size: 0.8em; }
 
 @media only screen and (max-width: 767px) {
   footer {
