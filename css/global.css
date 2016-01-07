@@ -517,12 +517,15 @@ nav {
 
 @media only screen and (max-width: 768px) {
   nav {
-    padding-top: 50px; }
+    height: 120px;
+    padding-top: 20px; }
     nav.sticky.headroom--not-top {
       padding-top: 30px; }
     nav .inner {
       width: -webkit-calc(100% - 50px);
       width: calc(100% - 50px); }
+      nav .inner + * {
+        margin-top: 120px; }
     nav ul {
       margin-top: 25px;
       position: static;
