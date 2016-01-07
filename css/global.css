@@ -1061,9 +1061,11 @@ section.grid {
           flex-wrap: wrap; }
   section.grid .item {
     display: block;
-    width: 223px;
-    height: 223px;
-    background: no-repeat center;
+    width: 160px;
+    height: 160px;
+    margin: 3%;
+    background-repeat: no-repeat;
+    background-position: center;
     text-indent: -9999px; }
   section.grid p {
     font-family: "sofia-pro", sans-serif;

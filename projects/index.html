@@ -19,9 +19,9 @@ title: Projects
 </section>
 <!-- end section.text -->
 
-<section class="grid work">
+<section class="grid">
   {% for brand in site.data.brands %}
-    <div class="item" style="background: url({{ brand.image }}) center center no-repeat;">
+    <div class="item" style="background-image: url({{ brand.image }});">
       {{ brand.title }}
     </div>
   {% endfor %}
