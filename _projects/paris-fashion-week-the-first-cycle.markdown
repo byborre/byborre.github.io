@@ -16,11 +16,7 @@ images:
 
 date:   2016-01-01 09:00:00
 categories: projects
-
-featured:
-  - title: "The First cycle"
-    url: https://vimeo.com/35475607
-    image: /img/content/logos/bb-avatar-box_220.png
+vimeo: https://player.vimeo.com/video/35475607
 
 ---
 

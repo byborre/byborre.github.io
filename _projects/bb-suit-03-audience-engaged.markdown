@@ -13,10 +13,7 @@ images:
 date:   2016-01-01 09:00:00
 categories: projects
 
-featured:
-  - title: "The Experiment by ByBorre X CWI (video)"
-    url: https://vimeo.com/140198523
-    image:
+vimeo: https://player.vimeo.com/video/140198523
 
 ---
 

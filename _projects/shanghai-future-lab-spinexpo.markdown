@@ -14,11 +14,7 @@ images:
 
 date:   2016-01-01 09:00:00
 categories: projects
-
-featured:
-  - title: "FutureLab at Spinexpo"
-    url: https://vimeo.com/user4763897/futurelab
-    image: /img/content/logos/bb-avatar-box_220.png
+vimeo: https://player.vimeo.com/video/123074205
 
 ---
 

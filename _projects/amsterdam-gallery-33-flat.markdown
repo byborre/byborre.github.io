@@ -8,7 +8,7 @@ cover: "/img/content/projects/amsterdam-gallery-33-flat/flat-by-borre_2.JPG"
 images:
 date:   2016-01-01 09:00:00
 categories: projects
-vimeo: https://player.vimeo.com/video/59747129?color=FFFFFF
+vimeo: https://player.vimeo.com/video/59747129
 
 images:
   - path: "/img/content/projects/amsterdam-gallery-33-flat/flat-by-borre_2.JPG"
