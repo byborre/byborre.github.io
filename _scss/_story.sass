@@ -12,3 +12,20 @@ section.story
 
   > :first-child
     margin-top: 80px
+
+section.embed
+  max-width: 1180px
+  width: calc(100% - 50px)
+  margin: 0 auto
+
+  section.video
+    .inner
+      width: 100%
+      padding: 80px 0
+      text-align: center
+
+    iframe
+      width: 100%
+      @media only screen and (min-width: 768px)
+        height: 750px
+        max-height: calc(100vh - 65px);
