@@ -7,6 +7,7 @@ category: collaborations
 cover: "/img/content/projects/piet-hein-eek-byborre/BB.PHE.silkquilt.3.groenbeige.jpg"
 
 images:
+  - path: "/img/content/projects/piet-hein-eek-byborre/BB-CtoC-10-Outline.jpg"
   - path: "/img/content/projects/piet-hein-eek-byborre/BB.PHE.silkquilt.2.geelbruin.01.jpg"
   - path: "/img/content/projects/piet-hein-eek-byborre/BB.PHE.silkquilt.3.groenbeige.jpg"
   - path: "/img/content/projects/piet-hein-eek-byborre/BB.PHE.silkquilt.3.groenmint.jpg"
