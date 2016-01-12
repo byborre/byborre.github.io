@@ -14,11 +14,7 @@ images:
 
 date:   2016-01-01 09:00:00
 categories: projects
-
-featured:
-  - title: "Future Relic 03 by Daniel Arsham - Tribeca Presents"
-    url: https://youtu.be/jWvnC0mGOGk
-    image:
+youtube: https://www.youtube.com/embed/jWvnC0mGOGk
 ---
 
 BYBORRE took the costume design of the Future Relic short for their account. It is the third project of artist Daniel Arsham, consisting of a series of nine short films. “The series depicts a future civilisation at various points before and after a major ecological change on Earth. In the world of Future Relic, nature as we know it today does not exist.”

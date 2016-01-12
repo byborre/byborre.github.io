@@ -31,14 +31,22 @@ layout: page
 </section>
 <!-- end section.story -->
 
+{% if page.youtube %}
+<section class="embed">
+  <section class="video">
+    <div class="inner">
+    <iframe width="750" height="400" src="{{ page.youtube }}" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+</section>
+{% endif %}
+
 {% if page.vimeo %}
 <section class="embed">
   <section class="video">
-
     <div class="inner">
     <iframe src="{{ page.vimeo }}?color=FFFFFF" width="750" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
     </div>
-
   </section>
 </section>
 {% endif %}
