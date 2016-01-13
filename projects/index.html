@@ -19,15 +19,6 @@ title: Projects
 </section>
 <!-- end section.text -->
 
-<section class="grid">
-  {% for brand in site.data.brands %}
-    <div class="item" style="background-image: url({{ brand.image }});">
-      {{ brand.title }}
-    </div>
-  {% endfor %}
-</section>
-<!-- end .section.grid.work -->
-
 <section class="mosaic projects">
 
   <div class="inner">
@@ -92,3 +83,11 @@ title: Projects
 </section>
 <!-- end section.mosaic -->
 
+<section class="grid brands">
+  {% for brand in site.data.brands %}
+    <div class="item" style="background-image: url({{ brand.image }});">
+      {{ brand.title }}
+    </div>
+  {% endfor %}
+</section>
+<!-- end .section.grid.work -->

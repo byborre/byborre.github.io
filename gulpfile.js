@@ -45,7 +45,7 @@ gulp.task('sass', function () {
             includePaths: ['scss'],
             onError: browserSync.notify
         }))
-        .pipe(prefix(['last 15 versions', '> 2%', 'ie 9'], { cascade: true }))
+        .pipe(prefix(['last 5 versions', '> 2%', 'ie 9', 'safari 9'], { cascade: true }))
         .pipe(minifyCss())
         .pipe(gulp.dest('_site/css'))
         .pipe(browserSync.reload({stream:true}))
