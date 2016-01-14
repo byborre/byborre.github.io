@@ -2,7 +2,7 @@
 layout: project
 title:  "BB.SUIT 0.1 / Access Anywhere"
 people: "SXSW"
-homepage: true
+homepage: false
 category: prototypes
 cover: "/img/content/projects/bb-suit-01-access-anywhere/1-BBsuitThijs-1.1.jpg"
 images:

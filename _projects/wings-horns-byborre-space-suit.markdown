@@ -2,7 +2,7 @@
 layout: project
 title:  "WINGS + HORNS x BYBORRE / Space suit"
 people: "wings + horns"
-homepage: false
+homepage: true
 category: collaborations
 cover: "/img/content/projects/wings-horns-byborre-space-suit/DR_Hypebeast_wingshornsbyBorre-5873.jpg"
 

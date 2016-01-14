@@ -4,7 +4,14 @@ title:  "VOLVO x BYBORRE / Future car concept"
 people: "Volvo"
 homepage: false
 category: collaborations
-cover: ""
+cover: "/img/content/projects/volvo-byborre-future-car-concept/VOLVO_CH_09_2015_6347.JPG"
+
+images:
+  - path: "/img/content/projects/volvo-byborre-future-car-concept/VOLVO_CH_09_2015_6347.JPG"
+  - path: "/img/content/projects/volvo-byborre-future-car-concept/VOLVO_CH_09_2015_6348.JPG"
+  - path: "/img/content/projects/volvo-byborre-future-car-concept/VOLVO_CH_09_2015_6352.JPG"
+  - path: "/img/content/projects/volvo-byborre-future-car-concept/VOLVO_CH_09_2015_6397.JPG"
+
 
 date:   2016-01-01 09:00:00
 categories: projects
