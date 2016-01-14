@@ -45,3 +45,31 @@ section.text
   a.button
     +button
     margin-top: 75px
+
+  .chart
+    margin-top: 25px
+    border-top: 1px solid #979797
+    color: #212121
+
+    .item
+      border-bottom: 1px solid #979797
+      +clearfix
+
+    .name
+      float: left
+      width: 110px
+      font-family: $sofia-pro
+      font-size: 17px
+      font-weight: 600
+      line-height: 26px
+      padding: 19px 0 19px 10px
+
+    .value
+      float: left
+      width: calc(100% - 110px)
+      font-size: 17px
+      line-height: 21px
+      padding: 22px 0
+
+  .chart + .button
+    margin-top: 50px
