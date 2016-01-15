@@ -1,7 +1,7 @@
 nav
   height: 175px
   width: 100%
-  padding-top: 93px
+  padding-top: 75px
   font-family: $sofia-pro
   font-weight: 700
   font-size: 1.4em;
@@ -17,6 +17,21 @@ nav
 
     & + *
       margin-top: 175px
+
+  &.home
+    background: none
+
+    ul a
+      color: #fff
+      &:hover,
+      &.active
+        border-bottom: 1px solid #fff
+
+    h1
+      +background-image-retina('../img/logo-white', 'png', 175px, 26px)
+
+  &.home + *
+    margin-top: 0
 
   .inner
     max-width: 1166px
