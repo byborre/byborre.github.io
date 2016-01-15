@@ -10,11 +10,29 @@ date:   2015-12-10 09:11:03
 categories: products
 cover: "/img/content/products/BB.SCARF.TheGeneral/IMG_2657.JPG"
 images:
-  - path: "/img/content/products/BB.SCARF.TheGeneral/IMG_2657.JPG"
+  - path: "/img/content/products/BB.SCARF.TheGeneral/BB-scarfB.jpg"
+  - path: "/img/content/products/BB.SCARF.TheGeneral/BB-scarfW.jpg"
+  - path: "/img/content/products/BB.SCARF.TheGeneral/IMG_2653.JPG"
+  - path: "/img/content/products/BB.SCARF.TheGeneral/IMG_2658.JPG"
+  - path: "/img/content/products/BB.SCARF.TheGeneral/IMG_2659.JPG"
 
 info: "Product Information recap. Material or alike."
 ---
 
-Little story on the product lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur massa in maximus eleifend. Mauris  tristique bibendum odio.
+### Yarn sourcing
 
-Aenean in neque orci. Aenean id nisl urna. Donec commodo erat quis ante pharetra, nec luctus arcu porta. Mauris imperdiet, lorem et dignissim pretium, sem diam mollis urna, eu maximus massa dolor id nisl. Vestibulum aliquet ullamcorper dolor vel dictum. Integer ac interdum lacus.
+At BYBORRE we hand select the best yarns to get the best quality.
+
+* Front + Back - double treaded Bio-cotton from Italy
+* Filling yarn - special BB filling Polyester that will get more volume the more it is used
+
+### Product development / Circular Knitting
+
+This product is directly developed on the circular knitting machine with BYBORRE signature knitting technique. At BYBORRE we program and handle the machines ourselves.
+
+
+### Product finishing
+
+After running the circular knitting files the textiles will checked one by one at our quality control and steamed by hand. We finish the scarfs in-house in Amsterdam. And we guarantee the more you use it the softer and nicer the product will become.
+
+
