@@ -2,7 +2,7 @@
 layout: project
 title:  "Tactile Dialogues"
 people: ""
-homepage: true
+homepage: false
 category: prototypes
 cover: "/img/content/projects/tactile-dialogues/etextilePillow.png"
 

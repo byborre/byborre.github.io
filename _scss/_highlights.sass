@@ -20,7 +20,6 @@
 
     .text
       margin-top: 40vh
-      transition: width .4s cubic-bezier(0.4, 0, 1, 1), opacity .2s .4s ease
 
     h2
       margin: 0
@@ -63,7 +62,7 @@
         pointer-events: none
         background: #D8D8D8
         z-index: 3
-        transition: opacity .2s ease
+        transition: all .4s ease
 
       .text
         position: relative
@@ -72,15 +71,10 @@
       &:hover
 
         &:after
-          opacity: 0
+          background: transparent
 
       &.hidden
         width: 100px
-
-        .text
-          opacity: 0
-          transition: none
-          transition: width .4s cubic-bezier(0.4, 0, 1, 1), opacity .2s ease
 
 @media only screen and (max-width: 1023px)
 

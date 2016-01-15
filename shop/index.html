@@ -10,7 +10,7 @@ title: Shop
       <a class="item" href="{{ product.url }}" style="background-image: url({{ product.cover }});">
         <span class="item-inner">
           <h3>{{ product.title }}</h3>
-          <p>{{ product.count }}pcs. €{{ product.price_euro }},-</p>
+          <p>€{{ product.price_euro }},-</p>
         </span>
         <!-- end .item-inner -->
       </a>
@@ -20,5 +20,21 @@ title: Shop
 
 </section>
 <!-- end section.mosaic -->
+
+<section class="text">
+
+  <div class="inner">
+    <p class="intro">BYBORRE is driven by love for material and machine and the endless possibilities offered by the two. Characteristic to the label are the self-developed innovative knitting techniques that bring the digital and tactile worlds together. By starting from the yarns BYBORRE discovers new possibilities. The BYBORRE clothing pieces convey the story about material and machine, which introduces a new approach towards fashion where the process and product are equally important.</p>
+
+    <p>This is the place where we release our wardrobe piece by piece, rather than a seasonal collection. When we think the product is finished and here to stay, we put it out to you, to the public.</p>
+
+    <p>Here we keep you on track of our developments. Follow our urgency to experiment, innovate and reinvent.</p>
+  </div>
+  <!-- end .inner -->
+
+</section>
+<!-- end section.text -->
+
+
 
 {% include shipping.html %}
