@@ -19,6 +19,11 @@ images:
 info: "Product Information recap. Material or alike."
 ---
 
+The General is our first essential piece using our re-launched 3D knitted textiles. This piece uses our very own signature “Jersey”, the triple layered knit.
+
+The BYBORRE scarfs originate from the development of the 3D knitted textiles. While developing our first Paris fashion week show we found the rest material to be a one of a kind scarf.
+From that point on we perfected the production process of these scarfs until there was no waste material at all. Design efficiency!
+
 ### Yarn sourcing
 
 At BYBORRE we hand select the best yarns to get the best quality.

@@ -19,6 +19,11 @@ images:
 info: "Product Information recap. Material or alike."
 ---
 
+This scarf was developed on the occasion of our solo show in Tokyo, Japan. The Graphics of this scarf originate from the blanket designed for the exhibition, in which our production process of including sewing patterns in textile is depicted.
+
+The BYBORRE scarfs originate from the development of the 3D knitted textiles. While developing our first Paris fashion week show we found the rest material to be a one of a kind scarf.
+From that point on we perfected the production process of these scarfs until there was no waste material at all. Design efficiency!
+
 ### Yarn sourcing
 
 At BYBORRE we hand select the best yarns to get the best quality.
