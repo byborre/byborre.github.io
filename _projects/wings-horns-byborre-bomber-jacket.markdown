@@ -2,7 +2,7 @@
 layout: project
 title:  "WINGS + HORNS x BYBORRE / Bomber jacket"
 people: "wings + horns"
-homepage: true
+homepage: false
 category: collaborations
 cover: "/img/content/projects/wings-horns-byborre-bomber-jacket/Wings-Horns-Flats-082_Dark_Flat_News.jpg"
 
