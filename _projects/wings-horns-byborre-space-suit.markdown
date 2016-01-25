@@ -19,15 +19,15 @@ images:
   - path: "/img/content/projects/wings-horns-byborre-space-suit/DR_Hypebeast_wingshornsbyBorre-6468.jpg"
 
 featured:
-- title: "Process: wings+horns x ByBorre Space Suit Part 1 - Concept & Pattern-Making"
+- title: "Process: wings+horns x BYBORRE Space Suit Part 1 - Concept & Pattern-Making"
   url: http://hypebeast.com/2015/1/process-wingshorns-x-byborre-space-suit-part-1-concept-pattern-making
   image: /img/content/logos/Hypebeast_220.png
 
-- title: "Process: wings+horns x ByBorre Space Suit Part 2 - Sewing & Fit Testing"
+- title: "Process: wings+horns x BYBORRE Space Suit Part 2 - Sewing & Fit Testing"
   url: http://hypebeast.com/2015/1/process-wingshorns-x-byborre-space-suit-part-2-sewing-fit-testing
   image: /img/content/logos/Hypebeast_220.png
 
-- title: "Process: wings+horns x ByBorre Space Suit Part 3"
+- title: "Process: wings+horns x BYBORRE Space Suit Part 3"
   url: http://hypebeast.com/2015/1/process-wingshorns-x-byborre-space-suit-part-3
   image: /img/content/logos/Hypebeast_220.png
 
