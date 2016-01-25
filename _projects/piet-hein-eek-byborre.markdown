@@ -4,9 +4,10 @@ title:  "PIET HEIN EEK x BYBORRE"
 people: "Piet Hein Eek"
 homepage: false
 category: collaborations
-cover: "/img/content/projects/piet-hein-eek-byborre/BB.PHE.silkquilt.3.groenbeige.jpg"
+cover: "/img/content/projects/piet-hein-eek-byborre/PHM-36-Blue-Scrapwood_lookbook.jpg"
 
 images:
+  - path: "/img/content/projects/piet-hein-eek-byborre/PHM-36-Blue-Scrapwood_lookbook.jpg"
   - path: "/img/content/projects/piet-hein-eek-byborre/BB-CtoC-10-Outline.jpg"
   - path: "/img/content/projects/piet-hein-eek-byborre/BB.PHE.silkquilt.2.geelbruin.01.jpg"
   - path: "/img/content/projects/piet-hein-eek-byborre/BB.PHE.silkquilt.3.groenbeige.jpg"
