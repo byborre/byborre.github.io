@@ -4,13 +4,14 @@ title:  "BYBORRE pop-up"
 people: "Amsterdam"
 homepage: true
 category: shows
-cover: "/img/content/projects/byborre-popup-shop-hobbemastraat/2L5A3014.jpg"
+cover: "/img/content/projects/byborre-popup-shop-hobbemastraat/2L5A2870.jpg"
 
 images:
   - path: "/img/content/projects/byborre-popup-shop-hobbemastraat/2L5A2870.jpg"
   - path: "/img/content/projects/byborre-popup-shop-hobbemastraat/2L5A2920.jpg"
   - path: "/img/content/projects/byborre-popup-shop-hobbemastraat/2L5A3014.jpg"
   - path: "/img/content/projects/byborre-popup-shop-hobbemastraat/2L5A3171.jpg"
+  - path: "/img/content/projects/byborre-popup-shop-hobbemastraat/BB-Parkhotel-PopupDoor.jpg"
 
 date:   2016-01-25 15:36:00
 categories: projects
