@@ -9,8 +9,8 @@ twitter_username: byB0RRE
 github_username:  byborre
 facebook_username: byborre
 instagram_username: byborre
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 permalink: pretty
 collections:
