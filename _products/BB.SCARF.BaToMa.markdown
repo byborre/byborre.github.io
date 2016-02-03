@@ -4,7 +4,7 @@ title:  "BB.SCARF.BaToMa"
 handle: "bubble-scarf-01"
 shopifyid: 12943340423
 price_euro: 219
-homepage: true
+homepage: false
 count: 200
 date:   2015-12-10 09:11:03
 categories: products

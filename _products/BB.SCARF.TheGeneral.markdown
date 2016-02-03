@@ -4,7 +4,7 @@ title:  "BB.SCARF.TheGeneral"
 handle: "bb-scarf-thegeneral"
 shopifyid: 13772580743
 price_euro: 219
-homepage: false
+homepage: true
 count: 200
 date:   2015-12-10 09:11:03
 categories: products
