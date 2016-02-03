@@ -1,5 +1,5 @@
 .mosaic
-  width: 100%
+  flex: 1
   color: #212121
   font-family: $sofia-pro
   font-weight: 400
@@ -13,7 +13,7 @@
 
   .inner
     max-width: (1165px + 26px + 26px)
-    width: 100%
+    flex: 1
     margin: 0 auto
 
   .items
@@ -68,3 +68,10 @@
 
     &.center
       text-align: center
+
+@media only screen and (max-width: $breakpoint-medium)
+  .mosaic
+    .items
+      display: flex
+      flex-direction: column
+      align-items: center
