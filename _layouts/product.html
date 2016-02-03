@@ -11,13 +11,9 @@ layout: page
   <section class="text" id="product-description">
 
     <div class="inner">
-
-      <h2>{{ page.title }}</h2>
-
-      {{ content }}
-
       {% include buy-button.html shopifyid=page.shopifyid name=page.title handle=page.handle %}
-
+      <h2>{{ page.title }}</h2>
+      {{ content }}
     </div>
     <!-- end .inner -->
 
