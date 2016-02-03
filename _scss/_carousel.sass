@@ -19,7 +19,7 @@ section.carousel,
 section.carousel .slide
   max-height: calc(100vh - 65px)
 
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: $breakpoint-medium)
 
   section.carousel
     width: calc(100% - 50px)
@@ -28,14 +28,10 @@ section.carousel .slide
     .slide
       height: calc(750 / 1180 * 100vw)
 
-@media only screen and (max-width: 767px)
-
-  section.carousel
-
     .slick-prev, .slick-next
       display: none !important
 
-@media only screen and (max-width: 422px)
+@media only screen and (max-width: $breakpoint-small)
 
   section.carousel
     width: calc(100% - 30px)

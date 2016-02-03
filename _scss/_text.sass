@@ -21,7 +21,7 @@ section.text
       text-align: center
 
   p, li
-    margin: 20px 0 0
+    margin: 1em 0 0
     font-size: 1.6em
     line-height: 1.6em
 
@@ -79,3 +79,25 @@ section.text
 
   .chart + .button
     margin-top: 50px
+
+@media only screen and (max-width: $breakpoint-medium)
+  section.text
+    h2
+      font-size: 1.8em
+      margin: 1.6em 0
+
+    h3
+      font-size: 1.4em
+      margin: 1.6em 0
+
+
+    p, li
+      margin: 1.2em 0 0
+      font-size: 1.4em
+      line-height: 1.6em
+
+      &.intro
+        font-size: 1.8em
+
+
+

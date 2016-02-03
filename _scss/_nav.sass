@@ -84,7 +84,7 @@ nav
     display: block
     text-indent: -9999px
 
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: $breakpoint-medium)
 
   nav
     height: 120px
@@ -117,7 +117,7 @@ nav
   nav
 
     .inner
-      width: calc(100% - 50px)
+      width: calc(100% - 30px)
 
     li
 
@@ -126,10 +126,3 @@ nav
 
       &:last-child
         text-align: right
-
-@media only screen and (max-width: 414px)
-
-  nav
-
-    .inner
-      width: calc(100% - 30px)
