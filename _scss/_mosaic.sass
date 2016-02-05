@@ -1,5 +1,5 @@
 .mosaic
-  flex: 1
+  width: 100%
   color: #212121
   font-family: $sofia-pro
   font-weight: 400
@@ -13,7 +13,7 @@
 
   .inner
     max-width: (1165px + 26px + 26px)
-    flex: 1
+    width: 100%
     margin: 0 auto
 
   .items
@@ -23,6 +23,7 @@
     flex-wrap: wrap
 
   .item
+    box-sizing: border-box
     width: 365px
     height: 365px
     display: inline-block
@@ -32,6 +33,7 @@
     position: relative
 
     .item-inner
+      box-sizing: border-box
       background: rgba(255,255,255,0.85)
       position: absolute
       top: 10px
@@ -75,3 +77,8 @@
       display: flex
       flex-direction: column
       align-items: center
+    .item
+      width: 100%
+      margin: 20px 0
+      .item-inner
+        padding: 0

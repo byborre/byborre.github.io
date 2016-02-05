@@ -18,6 +18,10 @@ nav
     & + *
       margin-top: 175px
 
+  &.hide
+    transition: top .6s ease
+    top: -175px
+
   &.home
     background: none
 
@@ -95,6 +99,10 @@ nav
       &.headroom--not-top
         padding-top: 30px
 
+    &.hide
+      transition: top .6s ease
+      top: -120px
+
     .inner
       width: calc(100% - 50px)
 
@@ -115,7 +123,6 @@ nav
 @media only screen and (max-width: 422px)
 
   nav
-
     .inner
       width: calc(100% - 30px)
 

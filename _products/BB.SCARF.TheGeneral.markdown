@@ -13,7 +13,6 @@ images:
   - path: "/img/content/products/BB.SCARF.TheGeneral/BB-scarfB.jpg"
   - path: "/img/content/products/BB.SCARF.TheGeneral/BB-scarfW.jpg"
   - path: "/img/content/products/BB.SCARF.TheGeneral/IMG_2653.JPG"
-  - path: "/img/content/products/BB.SCARF.TheGeneral/IMG_6415-1.JPG"
 
 info: "Product Information recap. Material or alike."
 ---
