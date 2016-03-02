@@ -1,22 +1,11 @@
-# Site settings
+---
 title: BYBORRE
-email: mail@byborre.com
-description: > # this means to ignore newlines until "baseurl:"
-  BYBORRE makes textile with embedded technology. Enabling a new way of digital interaction.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://byborre.com" # the base hostname & protocol for your site
-twitter_username: byB0RRE
-github_username:  byborre
-facebook_username: byborre
-instagram_username: byborre
-markdown: kramdown
-highlighter: rouge
-exclude: ["node_modules", "gulpfile.js", "package.json"]
-permalink: pretty
+url: http://byborre.com
+timezone: UTC
 collections:
-  products:
+  posts:
+    title: Posts
     output: true
-    permalink: /products/:path/
-  projects:
+  uploads:
+    title: Uploads
     output: true
-    permalink: /projects/:path/
