@@ -10,9 +10,11 @@ date:   2015-12-10 09:11:03
 categories: products
 cover: "/img/content/products/BB.SCARF.TheGeneral/IMG_2657.JPG"
 images:
-  - path: "/img/content/products/BB.SCARF.TheGeneral/BB-scarfB.jpg"
+  - path: "/img/content/products/BB.SCARF.TheGeneral/sky_grey_general.jpg"
+  - path: "/img/content/products/BB.SCARF.TheGeneral/mixed_black_general.jpg"
+  - path: "/img/content/products/BB.SCARF.TheGeneral/spring_white_general.jpg"
   - path: "/img/content/products/BB.SCARF.TheGeneral/BB-scarfW.jpg"
-  - path: "/img/content/products/BB.SCARF.TheGeneral/IMG_2653.JPG"
+  - path: "/img/content/products/BB.SCARF.TheGeneral/BB-scarfB.jpg"
 
 info: "Product Information recap. Material or alike."
 ---

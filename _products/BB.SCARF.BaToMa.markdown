@@ -10,11 +10,10 @@ date:   2015-12-10 09:11:03
 categories: products
 cover: "/img/content/products/BB.SCARF.BaToMa/IMG_2649.jpg"
 images:
+  - path: "/img/content/products/BB.SCARF.BaToMa/carbon_black_batoma.jpg"
+  - path: "/img/content/products/BB.SCARF.BaToMa/bright_grey_batoma.jpg"
   - path: "/img/content/products/BB.SCARF.BaToMa/BATOMA-scarfB.jpg"
   - path: "/img/content/products/BB.SCARF.BaToMa/BATOMA-scarfW.jpg"
-  - path: "/img/content/products/BB.SCARF.BaToMa/IMG_2646.jpg"
-  - path: "/img/content/products/BB.SCARF.BaToMa/IMG_2648.jpg"
-  - path: "/img/content/products/BB.SCARF.BaToMa/IMG_2651.jpg"
 
 info: "Product Information recap. Material or alike."
 ---
