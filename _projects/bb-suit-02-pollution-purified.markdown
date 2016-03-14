@@ -48,6 +48,8 @@ featured:
     image: /img/content/logos/Vpro_220.png
     date:
 
+vimeo: https://player.vimeo.com/video/108586910
+
 ---
 
 BYBORRE started a collaborative research project with the BB.suit. In a larger perspective the BB.Suit is really about creating awareness of what wearable technology could mean for us in the future. Imagine the possibilities once chips are further developed where they can be flexible and washed.
