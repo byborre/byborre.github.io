@@ -1,20 +1,23 @@
-- title: "Dior"
-  image: "/img/content/logos/dior.png"
-
 - title: "Lidewij Edelkoort"
   image: "/img/content/logos/lidewij-edelkoort.png"
 
 - title: "Louis Vuitton"
-  image: "/img/content/logos/louis-vuitton.png"
-
-- title: "Moba 13"
-  image: "/img/content/logos/moba13.png"
+  image: "/img/content/logos/louis-vuitton@2x.png"
 
 - title: "Nike"
   image: "/img/content/logos/nike.png"
 
-- title: "Trend Union"
-  image: "/img/content/logos/trend-union.png"
-
 - title: "Philips"
   image: "/img/content/logos/philips.png"
+
+- title: "Piet Hein Eek"
+  image: "/img/content/logos/PietHeinEek_220.png"
+
+- title: "Volvo"
+  image: "/img/content/logos/Volvo.png"
+
+- title: "Wings + Horns"
+  image: "/img/content/logos/WingsHorns_220.png"
+
+- title: "Joris Laarman"
+  image: "/img/content/logos/JorisLaarman_220.png"

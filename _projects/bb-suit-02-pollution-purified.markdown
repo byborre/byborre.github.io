@@ -57,3 +57,5 @@ We are surrounded by textiles every moment of our lives, imagine it could be mor
 By integrating conducting yarns and sensors into the fabric BYBORRE enables the onesie to have different function. The outcome of the BB.suit is always related to the place and time the project is set.
 
 The BB.Suit 0.2 dives into the opportunities of future clothing to contribute to the well-being of people living in polluted urban environments. The onepiece garment uses a technology called Cold Plasma. This technology can split oxygen and water molecules into free radicals. These radicals react easily with toxic gases, bacteria, viruses and dust in order to clean the air. Since our clothing is constantly in contact with the air surrounding us it creates an opportunity to clean the polluted air. The integrated air quality sensor generates location-based data. When combining this data from all the wearers, a precise analysis of the air quality can be made, enabling people to react more effectively to the pollution.
+
+Partners and contributors: Martijn ten Bhömer from the Eindhoven University of Technology, Eva de Laat, dspbrg, StudioFriso and WANT

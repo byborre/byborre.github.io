@@ -54,3 +54,5 @@ By integrating conducting yarns and sensors into the fabric BYBORRE enables the 
 
 The BB.suit 0.1 is a mobile WIFI music hot spot designated for SXSW. When Musicians or their bookers find the BB.Suit through GPS, they can upload their songs directly onto the suit. During the festival we showcased 22 musicians and there songs on our own BB.SXSW 22tracks list. Updating the list everyday with freshly discovered artists. It is all about gameplay, offering the visitors - who tracked the suit - an extra layer to their festival experience.
 
+Partners and contributors: 22tracks, WANT, dspbrg, TU/e, Stimuleringsfonds and C.R.I.S.P
+
