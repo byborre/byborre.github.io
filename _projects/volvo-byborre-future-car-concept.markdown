@@ -23,3 +23,4 @@ Surface for service is a demonstrative object that indicates the possibilities o
 
 In this test object, we limit ourselves to pressure sensors, registering the level of pressure. In the future it needs to react on this information by adjusting the shape of the surface, relieving the pressure on the traveler.
 
+For this project BYBORRE teamed up with their partner CWI - the Dutch national research institute for mathematics and computer science - to create a working model.
