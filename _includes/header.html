@@ -1,10 +1,10 @@
-<nav class="sticky {% if page.url == '/' %}home{% endif %}">
+<nav class="sticky {% if page.url == '/' %}projects{% endif %}">
   <div class="inner">
     <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
       <ul>
-        <li><a href="https://byborre.com">Shop</a></li>
-        <li><a{% if page.url == '/projects/' %} class="active"{% endif %} href="/projects/">Projects</a></li>
+        <li><a{% if page.url == '/' %} class="active"{% endif %} href="/">Projects</a></li>
         <li><a{% if page.url == '/contact/' %} class="active"{% endif %} href="/contact/">Contact</a></li>
+        <li><a href="https://byborre.com">Shop</a></li>
       </ul>
   </div>
   <!-- end .inner -->
